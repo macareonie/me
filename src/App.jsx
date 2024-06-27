@@ -12,9 +12,10 @@ function App() {
       <Router>
         <NavBar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/foodblog" element={<FoodBlog />} />
+          <Route exact path="/me/" element={<Home />} />
+          <Route exact path="/me/about" element={<About />} />
+          <Route exact path="/me/foodblog" element={<FoodBlog />} />
+          <Route exact path="*" element={<div>Page Not Found</div>} />
         </Routes>
       </Router>
       <Footer />
