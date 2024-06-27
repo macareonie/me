@@ -9,13 +9,13 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
     <div>
-      <Router basename={"/"}>
+      <Router basename={"/me"}>
         <NavBar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/foodblog" element={<FoodBlog />} />
-          <Route exact path="*" element={<div>Page Not Found</div>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/foodblog" element={<FoodBlog />} />
+          <Route path="*" element={<div>Page Not Found</div>} />
         </Routes>
       </Router>
       <Footer />
