@@ -1,8 +1,32 @@
-# React + Vite
+# Ryan's Personal Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It's Summer 2024! Unfortunately, I have no proper plans to spend it whatsoever; I'm not going overseas and have no internship opportunities :(
 
-Currently, two official plugins are available:
+So, what better way to spend it than creating a personal website that I've been putting off for years!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Content
+
+- About myself
+- Food Blog with simple recipes I usually cook and tips I learnt over time
+- Current entertainment interests (Games, Shows/Anime, Books/Manga)
+- Portfolio (tentative)
+- University course reviews (tentative)
+
+## Motivation
+
+Good opportunity to refresh on:
+
+- HTML/CSS
+- JavaScript
+
+Good to put into practice and hone:
+
+- Git/GitHub
+- SWE principles/standards
+
+Good to learn and experiment with:
+
+- Vite
+- TailWindCSS
+
+Ideally, this can become a long sustaining project that would serve as a medium to pen my thoughts and reflect on things as well as a way to stay "fit" with my programming competencies during the long break.
