@@ -1,4 +1,5 @@
-import { FaDiscord, FaTelegram, FaInstagram } from "react-icons/fa";
+import { FaDiscord, FaTelegram, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
@@ -25,6 +26,20 @@ export default function Footer() {
             rel="noopener noreferrer"
           >
             <FaInstagram className="text-white h-6 w-6 hover:text-pink-500" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/rcry/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin className="text-white h-6 w-6 hover:text-blue-400" />
+          </a>
+          <a
+            href="mailto:e0958490@u.nus.edu"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MdEmail className="text-white h-6 w-6 hover:text-blue-500" />
           </a>
         </div>
       </footer>
