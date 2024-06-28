@@ -27,6 +27,7 @@ Good to put into practice and hone:
 Good to learn and experiment with:
 
 - Vite
+- React
 - TailWindCSS
 
 Ideally, this can become a long sustaining project that would serve as a medium to pen my thoughts and reflect on things as well as a way to stay "fit" with my programming competencies during the long break.
