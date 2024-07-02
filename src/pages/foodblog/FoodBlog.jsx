@@ -1,8 +1,13 @@
+import FoodIntro from "./FoodIntro";
+import Tips from "./Tips";
+import Recipes from "./Recipes";
+
 export default function FoodBlog() {
   return (
     <>
-      <div>Food Blog</div>
-      <p>food recipes and random stuff</p>
+      <FoodIntro />
+      <Tips />
+      <Recipes />
     </>
   );
 }
