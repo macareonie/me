@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Current University Courses",
+    "content": ["On Summer Break"]
+  },
+  {
+    "title": "Games I currently am playing",
+    "content": ["Game 1", "Game 2", "Game 3", "Game 4"]
+  },
+  {
+    "title": "Shows I am currently watching",
+    "content": ["Show 1", "Show 2", "Show 3", "Show 4"]
+  },
+  {
+    "title": "Current Projects",
+    "content": [
+      "This one :D",
+      "ARIA v2",
+      "CS2103R Project A: Migrate AB3 to Java 17"
+    ]
+  }
+]
