@@ -5,9 +5,9 @@ export default function Intro() {
       <div className="flex flex-col md:flex-row items-center min-h-screen p-8 bg-white">
         <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
           <img
-            src="https://via.placeholder.com/300"
+            src="/src/assets/icon.png"
             alt="Profile"
-            className="w-64 h-64 rounded-full shadow-lg"
+            className="w-96 h-96 rounded-full shadow-lg"
           />
         </div>
         <div className="w-full md:w-1/2 text-center md:text-left">

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ExpandableCard from "../../components/universal/ExpandableCard";
-
+import recipesData from "../../data/recipes.json";
 export default function Recipes() {
   const [expandedCard, setExpandedCard] = useState(null);
 
@@ -10,39 +10,34 @@ export default function Recipes() {
 
   return (
     <div className="p-8 pb-32">
-      {" "}
-      {/* Increased bottom padding */}
-      <div className="flex flex-col md:flex-row justify-center gap-8 mb-16">
-        <ExpandableCard
-          title="R1"
-          isExpanded={expandedCard === "r1"}
-          onExpand={() => handleExpand("r1")}
-        >
-          <p>step 1</p>
-        </ExpandableCard>
-        <ExpandableCard
-          title="R2"
-          isExpanded={expandedCard === "r2"}
-          onExpand={() => handleExpand("r2")}
-        >
-          <p>step 1</p>
-        </ExpandableCard>
-
-        <ExpandableCard
-          title="R3"
-          isExpanded={expandedCard === "r3"}
-          onExpand={() => handleExpand("r3")}
-        >
-          <p>step 1</p>
-        </ExpandableCard>
-
-        <ExpandableCard
-          title="R4"
-          isExpanded={expandedCard === "r4"}
-          onExpand={() => handleExpand("r4")}
-        >
-          <p>step 1</p>
-        </ExpandableCard>
+      <h2 className="text-4xl font-bold mb-8 text-center">Recipes</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        {recipesData.map((recipe, index) => (
+          <ExpandableCard
+            key={index}
+            title={recipe.title}
+            isExpanded={expandedCard === recipe.title}
+            onExpand={() => handleExpand(recipe.title)}
+            image={recipe.image}
+          >
+            <div className="text-gray-700">
+              <p className="mb-4">{recipe.intro}</p>
+              <h3 className="font-semibold">Ingredients:</h3>
+              <ul className="list-disc list-inside mb-4">
+                {recipe.ingredients.map((ingredient, idx) => (
+                  <li key={idx}>{ingredient}</li>
+                ))}
+              </ul>
+              <h3 className="font-semibold">Steps:</h3>
+              <ol className="list-decimal list-inside mb-4">
+                {recipe.steps.map((step, idx) => (
+                  <li key={idx}>{step}</li>
+                ))}
+              </ol>
+              <p>{recipe.closingRemarks}</p>
+            </div>
+          </ExpandableCard>
+        ))}
       </div>
     </div>
   );

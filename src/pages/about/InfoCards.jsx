@@ -21,7 +21,20 @@ export default function InfoCards() {
           >
             <ul className="list-disc list-inside text-gray-700">
               {card.content.map((item, idx) => (
-                <li key={idx}>{item}</li>
+                <li key={idx}>
+                  {item.url ? (
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:underline"
+                    >
+                      {item.text}
+                    </a>
+                  ) : (
+                    item.text
+                  )}
+                </li>
               ))}
             </ul>
           </ExpandableCard>

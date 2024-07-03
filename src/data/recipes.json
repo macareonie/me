@@ -1,0 +1,98 @@
+[
+  {
+    "title": "R1",
+    "intro": "This is a short intro to Recipe 1.",
+    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
+    "steps": [
+      "Step 1: Do something",
+      "Step 2: Do something else",
+      "Step 3: Finish up"
+    ],
+    "closingRemarks": "These are the closing remarks for Recipe 1.",
+    "image": ""
+  },
+  {
+    "title": "R2",
+    "intro": "This is a short intro to Recipe 2.",
+    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
+    "steps": [
+      "Step 1: Do something",
+      "Step 2: Do something else",
+      "Step 3: Finish up"
+    ],
+    "closingRemarks": "These are the closing remarks for Recipe 2.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "title": "R3",
+    "intro": "This is a short intro to Recipe 3.",
+    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
+    "steps": [
+      "Step 1: Do something",
+      "Step 2: Do something else",
+      "Step 3: Finish up"
+    ],
+    "closingRemarks": "These are the closing remarks for Recipe 3.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "title": "R4",
+    "intro": "This is a short intro to Recipe 4.",
+    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
+    "steps": [
+      "Step 1: Do something",
+      "Step 2: Do something else",
+      "Step 3: Finish up"
+    ],
+    "closingRemarks": "These are the closing remarks for Recipe 4.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "title": "R5",
+    "intro": "This is a short intro to Recipe 4.",
+    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
+    "steps": [
+      "Step 1: Do something",
+      "Step 2: Do something else",
+      "Step 3: Finish up"
+    ],
+    "closingRemarks": "These are the closing remarks for Recipe 4.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "title": "R6",
+    "intro": "This is a short intro to Recipe 4.",
+    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
+    "steps": [
+      "Step 1: Do something",
+      "Step 2: Do something else",
+      "Step 3: Finish up"
+    ],
+    "closingRemarks": "These are the closing remarks for Recipe 4.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "title": "R7",
+    "intro": "This is a short intro to Recipe 4.",
+    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
+    "steps": [
+      "Step 1: Do something",
+      "Step 2: Do something else",
+      "Step 3: Finish up"
+    ],
+    "closingRemarks": "These are the closing remarks for Recipe 4.",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "title": "R8",
+    "intro": "This is a short intro to Recipe 4.",
+    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
+    "steps": [
+      "Step 1: Do something",
+      "Step 2: Do something else",
+      "Step 3: Finish up"
+    ],
+    "closingRemarks": "These are the closing remarks for Recipe 4.",
+    "image": "https://via.placeholder.com/150"
+  }
+]
