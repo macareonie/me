@@ -9,8 +9,10 @@ export default function Recipes() {
   };
 
   return (
-    <div className="p-8 pb-32">
-      <h2 className="text-4xl font-bold mb-8 text-center">Recipes</h2>
+    <div className="bg-gray-100 p-8 pb-32 dark:bg-gray-700">
+      <h2 className="text-4xl font-bold mb-8 text-center dark:text-gray-300">
+        Recipes
+      </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {recipesData.map((recipe, index) => (
           <ExpandableCard
@@ -20,7 +22,7 @@ export default function Recipes() {
             onExpand={() => handleExpand(recipe.title)}
             image={recipe.image}
           >
-            <div className="text-gray-700">
+            <div className="text-gray-700 dark:text-gray-300">
               <p className="mb-4">{recipe.intro}</p>
               <h3 className="font-semibold">Ingredients:</h3>
               <ul className="list-disc list-inside mb-4">

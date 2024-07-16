@@ -4,8 +4,8 @@ import data from "../../data/tips.json";
 
 export default function Tips() {
   return (
-    <div className="bg-gray-100 p-8">
-      <h2 className="text-4xl font-bold mb-8 text-center">
+    <div className="bg-gray-200 p-8 dark:bg-gray-900">
+      <h2 className="text-4xl font-bold mb-8 text-center dark:text-gray-300">
         Cooking Tips and Tricks
       </h2>
       <div className="max-w-xl mx-auto">
