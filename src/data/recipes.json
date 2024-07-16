@@ -1,98 +1,102 @@
 [
   {
-    "title": "R1",
-    "intro": "This is a short intro to Recipe 1.",
-    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
-    "steps": [
-      "Step 1: Do something",
-      "Step 2: Do something else",
-      "Step 3: Finish up"
+    "title": "Pork & Holy Basil Stir-fry",
+    "intro": "Also known as Pad Kra Pao, this a popular Thai dish that is actually very simple to cook up.",
+    "ingredients": [
+      "Pork mince",
+      "Holy Basil",
+      "Garlic",
+      "Oyster Sauce",
+      "Fish Sauce",
+      "Light Soy Sauce"
     ],
-    "closingRemarks": "These are the closing remarks for Recipe 1.",
+    "steps": [
+      "Prepare the chilli paste by grinding chilli padi and garlic in a mortar and pestle. Adjust the quantities according to your own spice tolerance. Using a food processor or simply mincing it with a knife are possible alternatives",
+      "Heat a dash oil in a pan and fry the chilli paste for about a minute or two. Do avoid getting the fumes in your eyes",
+      "Add the pork mince and break it up well and allow to brown evenly",
+      "Add oyster sauce, fish sauce and soy sauce according to taste and mix well",
+      "Once the mince is cooked, turn off the heat add stir basil leaves through the stir-fry"
+    ],
+    "closingRemarks": "Best served over rice alongside a fried egg. Pork mince can be replaced with mince or chunks of other protein like chicken or beef. Firm tofu could also work as a meat-free option. Holy basil can be hard to fine, in which case regular basil works fine.",
+    "image": "/images/pork_and_holy_basil.jpg"
+  },
+  {
+    "title": "Egg Fried Rice",
+    "intro": "Honestly one of the most versatile meals you can have. Essentially any and i mean ANY ingredient can be added to the base dish, whether it be your choice of protein or any leftover veg you have in the fridge.",
+    "ingredients": ["Egg", "Rice", "Scallions/Spring Onion", "Light Soy Sauce"],
+    "steps": [
+      "Heat some oil in a pan and start cooking your choice of protein or whatever ingredients you wish to add if any. If using scallions/spring onions, the white sections can be added here",
+      "Push your ingredients to the side and crack an egg or two into the pan",
+      "Allow the egg(s) to set for a few seconds before breaking them up and incorporating them with the rest of your ingredients",
+      "Add rice, preferably leftover day old rice, but cooked rice works as well",
+      "Add light soy sauce around the edge of the pan and continue to mix till your rice is evenly mixed with the rest of the ingredients. Add any other seasoning here as well",
+      "Add the green sections of your scallions/spring onions and mix"
+    ],
+    "closingRemarks": "Especially good way to clear leftover rice from previous meals. My personal favourite additions to the base version are tuna, kimchi and an additional egg on top to create a korean-inspired fried rice that also takes less than 15 minutes to prepare and make.",
     "image": ""
   },
   {
-    "title": "R2",
-    "intro": "This is a short intro to Recipe 2.",
-    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
-    "steps": [
-      "Step 1: Do something",
-      "Step 2: Do something else",
-      "Step 3: Finish up"
+    "title": "Pork and Crab Meatballs",
+    "intro": "A family favourite I manages to learn from my grandmother; She usually makes a big batch of them leading into Chinese New Year to compliment our many steamboat/hotpot reunion meals.",
+    "ingredients": [
+      "Minced Pork",
+      "Crab",
+      "Fish Sauce",
+      "Chinese Cooking wine",
+      "White pepper",
+      "Sesame Oil",
+      "Salt",
+      "Chicken bouillion/stock cube",
+      "Corn Starch",
+      "Eggs"
     ],
-    "closingRemarks": "These are the closing remarks for Recipe 2.",
-    "image": "https://via.placeholder.com/150"
+    "steps": [
+      "In a large mixing bowl, add all the listed ingredients and mix well",
+      "Knead the mixture and let firm in the fridge for about 30 minutes",
+      "Heat up a pot of water or soup/stock",
+      "Oil your hands and form the mixture into balls each approximately the size of a ping pong ball",
+      "Let the meatballs cook till they float, fish them out and let them cool"
+    ],
+    "closingRemarks": "The meatballs can be stored in the fridge or freezer for a few days or weeks respectively. Simply heating them up in some soup is enough",
+    "image": ""
   },
   {
-    "title": "R3",
-    "intro": "This is a short intro to Recipe 3.",
-    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
+    "title": "Milk Tea",
+    "intro": "This is the simpler version of two recipes I've tried and honestly results in milk tea very similar to ones you can get from the stores",
+    "ingredients": ["500ml milk", "10g black tea leaves", "30-60g sugar"],
     "steps": [
-      "Step 1: Do something",
-      "Step 2: Do something else",
-      "Step 3: Finish up"
+      "In a pot on medium heat, bring the milk to a soft simmer",
+      "Add the tea leaves and let steep for 2 minutes",
+      "Add the sugar and stir for about a minute until the sugar has dissolved",
+      "Turn off the heat and let cool for a bit",
+      "Strain the tea and serve either hot or cold"
     ],
-    "closingRemarks": "These are the closing remarks for Recipe 3.",
-    "image": "https://via.placeholder.com/150"
+    "closingRemarks": "This can satisfy your milk tea cravings in honestly under 10 minutes. But, if you wish to elevate it further, you can steep the leaves in minimal water first, before dissolving in the sugar and lastly the milk.",
+    "image": ""
   },
   {
-    "title": "R4",
-    "intro": "This is a short intro to Recipe 4.",
-    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
-    "steps": [
-      "Step 1: Do something",
-      "Step 2: Do something else",
-      "Step 3: Finish up"
+    "title": "Mac & Cheese",
+    "intro": "This used to be my favourite food back in kindergarten. Looking back, it was definitely less cheesy and more like fried macaroni with cheese slapped on it, but know after trying the 'actual' dish, I still enjoy it quite a bit.",
+    "ingredients": [
+      "Macaraoni or choice of pasta",
+      "Milk",
+      "Flour",
+      "Butter/Oil",
+      "Salt",
+      "Pepper",
+      "Choice of toppings eg. Bread crumbs, Bacon bits"
     ],
-    "closingRemarks": "These are the closing remarks for Recipe 4.",
-    "image": "https://via.placeholder.com/150"
-  },
-  {
-    "title": "R5",
-    "intro": "This is a short intro to Recipe 4.",
-    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
     "steps": [
-      "Step 1: Do something",
-      "Step 2: Do something else",
-      "Step 3: Finish up"
+      "Boil and cook your choice of pasta to al dente. Continue to next steps while waiting",
+      "In another pot or deep pan, melt some butter/heat up some oil",
+      "Add an equal amount of flour and mix to form a roux. Let the flour cook out but be careful not to burn the roux",
+      "Slowly add the milk in, consistently stirring to incorporate it with the roux, eventually making a bechamel sauce",
+      "Add in your choice of cheeses and season it well to form your cheese sauce",
+      "Mix your cheese sauce into your pasta and transfer to a large baking dish",
+      "Add your toppings and finish with another layer of cheese if you like",
+      "Bake at 200°C until the top is golden brown"
     ],
-    "closingRemarks": "These are the closing remarks for Recipe 4.",
-    "image": "https://via.placeholder.com/150"
-  },
-  {
-    "title": "R6",
-    "intro": "This is a short intro to Recipe 4.",
-    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
-    "steps": [
-      "Step 1: Do something",
-      "Step 2: Do something else",
-      "Step 3: Finish up"
-    ],
-    "closingRemarks": "These are the closing remarks for Recipe 4.",
-    "image": "https://via.placeholder.com/150"
-  },
-  {
-    "title": "R7",
-    "intro": "This is a short intro to Recipe 4.",
-    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
-    "steps": [
-      "Step 1: Do something",
-      "Step 2: Do something else",
-      "Step 3: Finish up"
-    ],
-    "closingRemarks": "These are the closing remarks for Recipe 4.",
-    "image": "https://via.placeholder.com/150"
-  },
-  {
-    "title": "R8",
-    "intro": "This is a short intro to Recipe 4.",
-    "ingredients": ["Ingredient 1", "Ingredient 2", "Ingredient 3"],
-    "steps": [
-      "Step 1: Do something",
-      "Step 2: Do something else",
-      "Step 3: Finish up"
-    ],
-    "closingRemarks": "These are the closing remarks for Recipe 4.",
-    "image": "https://via.placeholder.com/150"
+    "closingRemarks": "Good sharing meal to accompany other side dishes",
+    "image": ""
   }
 ]

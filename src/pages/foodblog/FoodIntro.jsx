@@ -17,9 +17,9 @@ export default function FoodIntro() {
           <br />
           <p className="text-lg text-gray-700">
             I believe cooking is an invaluable life skill that everyone should
-            have. I personally think that it is not hard as well. Cooking at its
-            simplest is essentially just reading and following a recipe
-            step-by-step.
+            have and honestly I personally think that it is not hard as well.
+            Cooking at its simplest is essentially just reading and following a
+            recipe step-by-step.
           </p>
           <br />
           <p className="text-lg text-gray-700">
@@ -28,6 +28,11 @@ export default function FoodIntro() {
             which prompted my self-teaching homecooking journey. Included will
             also be some of my go-to recipes for meals I personally cook at
             home. Enjoy!
+          </p>
+          <br />
+          <p className="text-lg text-gray-700">
+            Disclaimer: Most of the recipes do not have exact steps or
+            measurements as I mainly cook of feel and vibes.
           </p>
         </div>
       </div>
