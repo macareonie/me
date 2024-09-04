@@ -1,29 +1,65 @@
 [
   {
     "title": "Current University Courses",
-    "content": [{ "text": "On Summer Break" }]
+    "content": [
+      {
+        "text": "CS4226: Internet Architecture",
+        "url": "https://nusmods.com/courses/CS4226/internet-architecture"
+      },
+      {
+        "text": "CS3230: Design and Analysis of Algorithms",
+        "url": "https://nusmods.com/courses/CS3230/design-and-analysis-of-algorithms"
+      },
+      {
+        "text": "LAJ1201: Japanese 1",
+        "url": "https://nusmods.com/courses/LAJ1201/japanese-1"
+      },
+      {
+        "text": "HSI2013: The Science of Music",
+        "url": "https://nusmods.com/courses/HSI2013/the-science-of-music"
+      },
+      {
+        "text": "GEC1044: Chinese Medicine: Theory and Practice",
+        "url": "https://nusmods.com/courses/GEC1044/chinese-medicine-theory-and-practice"
+      },
+      {
+        "text": "GEN2060X: Reconnect SeniorsSG",
+        "url": "https://nusmods.com/courses/GEN2060X/reconnect-seniors-sg"
+      },
+      {
+        "text": "ALS1010: Learning to Learn Better",
+        "url": "https://nusmods.com/courses/ALS1010/learning-to-learn-better"
+      }
+    ]
   },
   {
     "title": "Games I currently am playing",
     "content": [
       { "text": "Blue Archive" },
       { "text": "Wuthering Waves" },
-      { "text": "All Hoyoverse games except Tears of Themis" }
+      { "text": "All Hoyoverse games 😨" },
+      { "text": "Teamfight Tactics" }
     ]
   },
   {
-    "title": "Shows I am currently watching",
-    "content": [{ "text": "Nothing for now" }]
+    "title": "Shows/Anime I am currently watching",
+    "content": [
+      {
+        "text": "Frieren",
+        "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren?suggestion="
+      },
+      {
+        "text": "Shangri-La Frontier",
+        "url": "https://myanimelist.net/anime/52347/Shangri-La_Frontier__Kusoge_Hunter_Kamige_ni_Idoman_to_su"
+      }
+    ]
   },
   {
     "title": "Current Projects",
     "content": [
       { "text": "This one :D" },
       { "text": "ARIA v2", "url": "https://github.com/macareonie/ARIA" },
-      {
-        "text": "CS2103R Project A: Migrate AB3 to Java 17",
-        "url": "https://github.com/macareonie/AB3-J17"
-      }
+      { "text": "CS2103R Project" }
     ]
   }
 ]
