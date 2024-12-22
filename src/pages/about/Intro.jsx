@@ -5,7 +5,7 @@ export default function Intro() {
       <div className="flex flex-col md:flex-row items-center min-h-screen p-8 bg-white dark:bg-gray-800">
         <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
           <img
-            src="/src/assets/icon.png"
+            src="/images/icon.png"
             alt="Profile"
             className="w-96 h-96 rounded-full shadow-lg"
           />
