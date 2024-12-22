@@ -1,0 +1,184 @@
+[
+  {
+    "name": "CS1101S",
+    "intro": "The first module that CS students take in NUS, CS1101S is a module that introduces students to the world of programming through a gamified platform.",
+    "taken": "AY22/23 Sem 1",
+    "breakdown": [
+      "18%: Source Academy Achievements: 0.75% per level up to Level 24",
+      "5%: Studio attendance (3%) and effort (2%)",
+      "5%: Reflection attendance",
+      "6%: Reading Assessment 1, Week 4",
+      "3%: Mastery Check 1, any time after Week 4",
+      "12%: Midterm Assessment, Week 7",
+      "6%: Reading Assessment 2, Week 11",
+      "12%: Practical Assessment, Week 13",
+      "3%: Mastery Check 2, any time after Week 10",
+      "30%: Final Assessment"
+    ],
+    "review": "CS1101S was my first proper run in with programming, not counting the self learning I did with Harvard CS50. With little to no prior knowledge in programming, I was expecting to struggle quite a bit and oh boy did I struggle. The whole course was conducted in the gamified platform of Source Academy, with weekly assignments in the form of missions and quests. While I do appreciate the fact that they are trying to appeal to us with the idea of games, it personally ended up being a lot more of a hindrance in my learning. Imagine hearing about recursion for the first time and the next moment, you are presented with a bunch of runes and asked to make fractals for some mission. Like, what? I would have preferred a more traditional approach instead of all the fanstasy fluff context. It also was weird that they restricted us to using Source, a restricted version of Javascript. I understand that they wanted to instill the very basic concepts of programaming in us instead of blindly spamming loops everywhere, but I am pretty sure there are better ways to go about doing this. I felt like there were alot of redundant concepts too, some of which should definitely not be in the introduction course for Y1 students: meta-circular evaluator??, whatever that sound and graphic assignment was, and the unnecessarily complex functional expressionism mission. Assessments like the Reading Assessments were tricky but doable. Practical Assessment is basically Leetcode with kinda insane time crunch. Midterms and Finals felt like RNG for me, but I am sure people who have solid foundation found it a breeze. Might be a hot take, but I did enjoy the assessment breakdown, especially for a module like this. It was nice to have multiple chances to prove understanding of the content throughout the entire semester instead of a single final exam, rewarding people who take a consistent studying approac instead of the classic last minute revision style. Though I didn't personally approach any teaching staff outside of the studio sessions with Owen and Eldric (TAs for studio and recitation), I did hear/see that the teaching staff were generally very approacable and helpful, so props to them.",
+    "closingRemarks": "I do have many thoughts on how to improve the module, whether it be the content being taught or the way it is delivered. However, there must be a reason why it is still done the way it is for so long. Maybe I am the fussy one 😨. Honestly though, it is a passable module, definitely not the worst but not necessarily the best too. ",
+    "image": "/images/reviews/rune.jpg"
+  },
+  {
+    "name": "CS1231S",
+    "taken": "AY22/23 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "El1101E",
+    "taken": "AY22/23 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "GESS1029",
+    "taken": "AY22/23 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "MA2001",
+    "taken": "AY22/23 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "CS2040S",
+    "taken": "AY22/23 Sem 2",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "CS2100",
+    "taken": "AY22/23 Sem 2",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "ES2660",
+    "taken": "AY22/23 Sem 2",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "GEA1000",
+    "taken": "AY22/23 Sem 2",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "GEC1009",
+    "taken": "AY22/23 Sem 2",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "MA1521",
+    "taken": "AY22/23 Sem 2",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "CFG1003",
+    "taken": "AY23/24 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "CS2030S",
+    "taken": "AY23/24 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "CS2105",
+    "taken": "AY23/24 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "CS2109S",
+    "taken": "AY23/24 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "HSI1000",
+    "taken": "AY23/24 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "IS1108",
+    "taken": "AY23/24 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "taken": "AY",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "",
+    "taken": "AY",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  }
+]

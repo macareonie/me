@@ -5,6 +5,7 @@ import About from "./pages/about/About";
 import Home from "./pages/home/Home";
 import FoodBlog from "./pages/foodblog/FoodBlog";
 import Footer from "./components/footer/Footer";
+import CourseReview from "./pages/coursereviews/CourseReview";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/foodblog" element={<FoodBlog />} />
+          <Route path="/coursereviews" element={<CourseReview />} />
           <Route path="*" element={<div>Page Not Found</div>} />
         </Routes>
       </Router>
