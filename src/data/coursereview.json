@@ -22,20 +22,31 @@
   {
     "name": "CS1231S",
     "taken": "AY22/23 Sem 1",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "intro": "Rather infamous module that covers discrete mathematics. People call it an S/U module, blaming its difficulty and the fact that it covers really dry content",
+    "breakdown": [
+      "5%: Tutorial Attendance",
+      "20%: 2 x 10% Assignments",
+      "25%: Midterm",
+      "50%: Finals"
+    ],
+    "review": "Felt kind of apprehensive going into this module, assuming that there was going to be a lot of mathematical concepts and proofs to be done. And I was somewhat right. The module covers quite a significant amount of content, especially in the second half in my opinion. The first half introduces you to some familiar concepts of mathematical notation and logical operations. This is where methods of proofs were shown and set theory was covered as well. Going into midterms, while I was not particularly confident, I still felt that the module was actually manageable and somewhat enjoyable to a degree. The second half was where things got more challenging, with the introduction of more complex concepts: Relation, Functions, Cardinality, Counting, Graphs and Trees. Oh boy, those were not as easy to understand. I assume this is the part that caused many of my seniors and peers to lament this module and  proceed to give up on this module and I can see why. Content was definitely drier and more abstract with proofs becoming more complex and seemingly undoable for a plebian like me. Funnily enough, I felt better going into finals than midterms and surprisingly did not do as well. I guess the content was indeed too much for me to handle. That said, I must say the workload is not too heavy. Other than lectures, tutorials and 2 assignments across the whole semester, there is no other forms of workload. The time consuming part is probably just trying to make sense of whatever was covered during the lectures because there is no way anyone can take in everything from the lecture in one go. Prof Aaron is a great lecturer and honestly helped lectures be more bearable. Prof Leong is also knowledgable assuming you can make it past the first 10 minutes where his voice somehow is always really raspy and hard to hear. My tutorial was taken by a Y4 student who seemed really dedicated and willing to do extra to prepare for his tutorials. Overall, teachign staff was pretty good and helpful. ",
+    "closingRemarks": "Overall, pretty decent module. It is definitely challenging but is not as unbearable as people make it out to be. Even though I did not necessarily do really well for the module, I still enjoyed the process. If only I was more mathematically inclined, I would have probably enjoyed it more and feel more accomplished going through the module. ",
+    "image": "/images/reviews/susannaepp.png"
   },
   {
-    "name": "El1101E",
+    "name": "EL1101E",
     "taken": "AY22/23 Sem 1",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "intro": "A fun module I chanced upon while looking for a module to clear my Cross-Disciplinary requirement. I have always been interested in gathering gathering somewhat niche knowledge and this seemed like a good fit.",
+    "breakdown": [
+      "15%: Lecture Participation (PollEV)",
+      "30%: Class test",
+      "20%: Individual Essay",
+      "10%: Problem set attempts",
+      "25%: Tutorial participation (Tutor 15% + Peers 10%)"
+    ],
+    "review": "Introductory module on linguistics, particularly focusing on the English language. The module covers a wide range of topics, from phonetics to morphology to syntax to semantics. The content is interesting and engaging, with the lecturer, Dr Leslie, being very passionate about the subject. The lectures are interactive and engaging, with Leslie often asking questions and encouraging students to participate. I had the opportunity to have him as my tutor as well for tutorial sessions. He was a very easygoing and is charismatic enough to keep me interested the whole time. The problem sets were a good way to reinforce your understanding of the material, and the tutorial participation component encourages you to engage with your peers and share your ideas, especially since there are no official solutions; instead the collective agreed intepretation derived from class discussion is taken to be the 'answer'. Understandable I guess, since language and linguistics are subjective in nature. The class test was completely open book but of course, the paper was set such that Google will not be much help as well. The individual essay was an interesting assignment where we had to write an essay covering 2 or more topics covered during the course. It had been a really long time since I've written anything but honestly, it was a nice break from the technical and mathy assignments I've been doing -- I ended up writing about the language used in a gaming and streaming context. The weekly workload was not too heavy as well, just the problem set attempts and some readings meant as lecture preparation. ",
+    "closingRemarks": "Fun and chill module, perfect for people who are looking for a break from the usual technical modules. The content is interesting and the workload is not too heavy.",
+    "image": "/images/reviews/el.png"
   },
   {
     "name": "GESS1029",
