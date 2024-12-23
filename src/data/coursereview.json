@@ -1,40 +1,40 @@
 [
   {
-    "name": "CS1101S",
+    "name": "CS1101S: Programming Methodology",
     "intro": "The first module that CS students take in NUS, CS1101S is a module that introduces students to the world of programming through a gamified platform.",
     "taken": "AY22/23 Sem 1",
     "breakdown": [
       "18%: Source Academy Achievements: 0.75% per level up to Level 24",
       "5%: Studio attendance (3%) and effort (2%)",
       "5%: Reflection attendance",
-      "6%: Reading Assessment 1, Week 4",
-      "3%: Mastery Check 1, any time after Week 4",
-      "12%: Midterm Assessment, Week 7",
-      "6%: Reading Assessment 2, Week 11",
-      "12%: Practical Assessment, Week 13",
-      "3%: Mastery Check 2, any time after Week 10",
-      "30%: Final Assessment"
+      "6%: Reading Assessment 1",
+      "3%: Mastery Check 1",
+      "12%: Midterm",
+      "6%: Reading Assessment 2",
+      "12%: Practical Assessment",
+      "3%: Mastery Check 2",
+      "30%: Final"
     ],
     "review": "CS1101S was my first proper run in with programming, not counting the self learning I did with Harvard CS50. With little to no prior knowledge in programming, I was expecting to struggle quite a bit and oh boy did I struggle. The whole course was conducted in the gamified platform of Source Academy, with weekly assignments in the form of missions and quests. While I do appreciate the fact that they are trying to appeal to us with the idea of games, it personally ended up being a lot more of a hindrance in my learning. Imagine hearing about recursion for the first time and the next moment, you are presented with a bunch of runes and asked to make fractals for some mission. Like, what? I would have preferred a more traditional approach instead of all the fanstasy fluff context. It also was weird that they restricted us to using Source, a restricted version of Javascript. I understand that they wanted to instill the very basic concepts of programaming in us instead of blindly spamming loops everywhere, but I am pretty sure there are better ways to go about doing this. I felt like there were alot of redundant concepts too, some of which should definitely not be in the introduction course for Y1 students: meta-circular evaluator??, whatever that sound and graphic assignment was, and the unnecessarily complex functional expressionism mission. Assessments like the Reading Assessments were tricky but doable. Practical Assessment is basically Leetcode with kinda insane time crunch. Midterms and Finals felt like RNG for me, but I am sure people who have solid foundation found it a breeze. Might be a hot take, but I did enjoy the assessment breakdown, especially for a module like this. It was nice to have multiple chances to prove understanding of the content throughout the entire semester instead of a single final exam, rewarding people who take a consistent studying approac instead of the classic last minute revision style. Though I didn't personally approach any teaching staff outside of the studio sessions with Owen and Eldric (TAs for studio and recitation), I did hear/see that the teaching staff were generally very approacable and helpful, so props to them.",
     "closingRemarks": "I do have many thoughts on how to improve the module, whether it be the content being taught or the way it is delivered. However, there must be a reason why it is still done the way it is for so long. Maybe I am the fussy one 😨. Honestly though, it is a passable module, definitely not the worst but not necessarily the best too. ",
     "image": "/images/reviews/rune.jpg"
   },
   {
-    "name": "CS1231S",
+    "name": "CS1231S: Discrete Mathematics",
     "taken": "AY22/23 Sem 1",
     "intro": "Rather infamous module that covers discrete mathematics. People call it an S/U module, blaming its difficulty and the fact that it covers really dry content",
     "breakdown": [
       "5%: Tutorial Attendance",
       "20%: 2 x 10% Assignments",
       "25%: Midterm",
-      "50%: Finals"
+      "50%: Final"
     ],
     "review": "Felt kind of apprehensive going into this module, assuming that there was going to be a lot of mathematical concepts and proofs to be done. And I was somewhat right. The module covers quite a significant amount of content, especially in the second half in my opinion. The first half introduces you to some familiar concepts of mathematical notation and logical operations. This is where methods of proofs were shown and set theory was covered as well. Going into midterms, while I was not particularly confident, I still felt that the module was actually manageable and somewhat enjoyable to a degree. The second half was where things got more challenging, with the introduction of more complex concepts: Relation, Functions, Cardinality, Counting, Graphs and Trees. Oh boy, those were not as easy to understand. I assume this is the part that caused many of my seniors and peers to lament this module and  proceed to give up on this module and I can see why. Content was definitely drier and more abstract with proofs becoming more complex and seemingly undoable for a plebian like me. Funnily enough, I felt better going into finals than midterms and surprisingly did not do as well. I guess the content was indeed too much for me to handle. That said, I must say the workload is not too heavy. Other than lectures, tutorials and 2 assignments across the whole semester, there is no other forms of workload. The time consuming part is probably just trying to make sense of whatever was covered during the lectures because there is no way anyone can take in everything from the lecture in one go. Prof Aaron is a great lecturer and honestly helped lectures be more bearable. Prof Leong is also knowledgable assuming you can make it past the first 10 minutes where his voice somehow is always really raspy and hard to hear. My tutorial was taken by a Y4 student who seemed really dedicated and willing to do extra to prepare for his tutorials. Overall, teachign staff was pretty good and helpful. ",
     "closingRemarks": "Overall, pretty decent module. It is definitely challenging but is not as unbearable as people make it out to be. Even though I did not necessarily do really well for the module, I still enjoyed the process. If only I was more mathematically inclined, I would have probably enjoyed it more and feel more accomplished going through the module. ",
     "image": "/images/reviews/susannaepp.png"
   },
   {
-    "name": "EL1101E",
+    "name": "EL1101E: The Nature of Language",
     "taken": "AY22/23 Sem 1",
     "intro": "A fun module I chanced upon while looking for a module to clear my Cross-Disciplinary requirement. I have always been interested in gathering gathering somewhat niche knowledge and this seemed like a good fit.",
     "breakdown": [
@@ -49,49 +49,72 @@
     "image": "/images/reviews/el.png"
   },
   {
-    "name": "GESS1029",
+    "name": "GESS1029: Everyday Ethics in Singapore",
+    "taken": "AY22/23 Sem 1",
+    "intro": "Another chill module I found in order to fulfill one of the GE pillars. I have always had many thoughts on various controversial topics surrounding Singapore, so what better module to take than one that would be cover them from an academic standpoint",
+    "breakdown": [
+      "20%: Reading Quizzes x 4",
+      "20%: Journal Entries x 4",
+      "10%: Group Report",
+      "20%: Group Presentation",
+      "30%: Final"
+    ],
+    "review": "Rather insightful module that sheds a lot of light on many issues that plague Singapore. Topics covered included: Inequality, Meritocracy, Multicultaralism and Migration, all of which are very relevant to Singapore. I did not attend lectures physically but from the recordings, I could tell they were done well by the lecturer, Daryl Ooi. He was able to engage the students well while getting his points acroos and also had provided multiple opportunities for students to discuss among themselves and share their own views on vaiorus points raised. The weekly readings could potentially be heavy, depending on how fast a reader you are, and yopur ability to understand the content, but personally I found it manageable. Reading quizzes only had 5 questions each, but were quite tricky at times, so making sure to reference the articles again were important. Having a friend to do the quizzes together is definitely a good idea. I particularly enjoyed the journal entries, where we had to reflect and just share our thoughts on the specific topic covered. It was an interesting assignment that really allowed me to explore my own thoughts on a specific topic without having to worry about writing ability or correctness. The group report and presentation were a bit of a hassle, for someone like me who really REALLY doesn't like interaction with others. Fortunately, it was not demanding at all and I was lucky enough to have an extroverted groupmate who carried with a lot of the talking aspects. As for finals, I found it quite similar to the reading quizzes, with both free giveaway questions as well as tricky ones. It was the first time, I saw so many students leave the exam hall early but being the paranoid person I am, I stayed till the end even though I was also done midway through the 2 hours. Overall, this module gave me a chance to bounce off the ideas and perspectives presented by not only the teaching staff, but also the peers around me to further refine my own personal opinions and the way I view Singapore society as a whole. ",
+    "closingRemarks": "People hype up GES1035 as the goto S/U module for clearing the SS pillar, but honestly I would recommend this as well, not as an S/U module but as a very light workload module that is also very insightful and somewhat easy to do well in with minimum effort. ",
+    "image": "/images/reviews/ethics.png"
+  },
+  {
+    "name": "MA2001: Linear Algebra I",
     "taken": "AY22/23 Sem 1",
     "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "breakdown": [
+      "15%: Weekly Online Quizzes x 12 (Best 10 taken)",
+      "20%: Homeworks x 4",
+      "5%: Lab Assignment",
+      "60%: Final"
+    ],
+    "review": "First math module I had the pleasure of taking in NUS. I wouldn't say I am naturally talented at Math but I would not say I disliked it either. However, this was the start of a very deep hatred for anything mathematical. The module covers the basics of linear algebra, starting with linear systems and matrices, then moving on to more complex topics like euclidean spaces, vector sapces, orthogonality and transformations. I wouldn't say that the content was too difficult to understand, but it was just super dry. The way the lectures were done were also not to my liking. Having to watch several videsos of pre-lecture content followed by the actual 2hr sessions of rambling in hard to understand accents was just not it for me. The weekly quizzes were also a real pain to do and many defaulted to just using Wolfram|Alpha online or just begging for answers in the Telegram chat. Having to suddenly get used to proving problems requiring a solid understanding of the content was also a real pain. If you didn't have a friend group or at least one other to collab Homeworks with, good luck to you. For the big 60% Finals, I am pretty sure not many people completed it. The first few question parts were giveaway but the last 2 big questions were there solely to differentiate the students and help the bell curve and seemed completely impossible to do for the average person. I did like my TA Luka though. Guy was quite chill and efficient in his tutorials and was always willing to help out. Just a sidenote, the classroom was a real pain to get to. Having to take a lift from the back entrance of the building and enter through the back door is something a fresh Y1 student would not think to do. I ended up missing the bulk of the first tutorial simply because I, and a few others were locked out of the building because we took the lift from the front entrance which seemed like the obvious thing to do.",
+    "closingRemarks": "As someone who really didn't enjoy vectors in JC, this was not an enjoyable module. Looking back now, it definitely is very useful though and I lowkey regret not putting more effort here. Still, given a chance, I won't do it again lol.",
+    "image": "/images/reviews/linalg.png"
   },
   {
-    "name": "MA2001",
-    "taken": "AY22/23 Sem 1",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
-  },
-  {
-    "name": "CS2040S",
+    "name": "CS2040S: Data Structures and Algorithms",
     "taken": "AY22/23 Sem 2",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "intro": "Arguably the most important module in the CS curriculum, DSA is the backbone of everything CS no matter what area you wish to pursue.",
+    "breakdown": ["Couremology", "Midterm", "Final"],
+    "review": "First off, this was the first module I took where the grade breakdown was not given at all and honestly I felt that that was a very based decision from Prof Seth. He constantly reiterated that the module was not at all about grades and that the main goal is to learn and understand the content well. Honestly felt refreshing to see him get a little pissed at the unbearable CS zoom chat which kept asking about grade breakdown after he already covered his stance on it multiple times. He is a really good teacher but was let down by the fact that there is simply way too much content to cover in the 13 weeks. On top of having to learn Java on the fly, we covered basically every single data structure and algorithm you can think of, from linked lists to trees to graphs to sorting algorithms to hashing and even dynamic programming. Ince again, I wouldn't say the workload was very heavy, it just required consistent viewing of the lectures, attending tutorials and the somewhat weekly coding assignments on Coursemology. The assignments could range from simple to hard but with the help of my good friend Github, it was not too hard to complete them, albeit at the cost of my own understanding and learning. Coursemology XP was not too hard to accumulate especially with the lecture quizzes and tutorial attendance but Midterm and Finals was a whole different ballgame. It was all MCQ/MRQ but honestly at this point I would rather have open ended questions and proving questions back because I could at least get some (I hope) partial marks from those. These MCQ/MRQ questions were basically full on gambling for me because 1. The problem statement was too long and complex to understand, 2. The unnecessary large amopunt of options they gave were way too long, complex and similar to one another, 3. Required a lot of time to process even with a solid foundation of the content, or 4. ALL OF THE ABOVE. I was very sure I would do badly for the finals and even I did not expect myself to end up as the 10% percentile. Miraculously stil managed to scrape a B grade but it was a tough module, assessment wise for sure.",
+    "closingRemarks": "Enjoyable Prof; Not so enjoyable content. Pretty sure some of the content covered could be pushed over the other modules, which would make it so much more manageable and also make sense teaching wise, but I am but a lowly student with no say in such issues.",
+    "image": "/images/reviews/tree.webp"
   },
   {
-    "name": "CS2100",
+    "name": "CS2100: Computer Organization",
     "taken": "AY22/23 Sem 2",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "intro": "The supposed 'driest' of the holy trinity of CS modules, CS2100 is a module that covers the basics of computer organisation and architecture.",
+    "breakdown": [
+      "5%: Lecture Quizzes",
+      "1% Tutorial Attendance",
+      "10%: 2 x 5% Assignments",
+      "14%: Labs",
+      "20%: Midterm",
+      "50%: Final"
+    ],
+    "review": "The supposed follow up to CS1231S, though without the need to do proofs anymore (thank god). The module covers the basics of computer organisation and architecture, starting from the very basics of binary and hexadecimal, before moving on to C and MIPS assembly language, the inner workings of a processor (honing in and control and datapath), everything about circuits and roundign up with caching and pipelining. Once again, the content covered was definitely the reason as to why people do not like this module, and I would have to agree. The prep work required to understand the lectures was quite a lot. In the first half, we had to learn a new counting system as well as the C programming language as they were prerequisites for what comes after, assembly language, in this case MIPS. MIPS really was pretty time consuming to make sense of and even after, it still required a lot of effort to understand it and be able to translate C to MIPS and vice versa. The scary part was that, if I remembered correctly, the beginning portion was simply so that we could go on to understand the actual content of the module, namely the subsequent topics on the processor, how circuits worked and pipelining and caching. These topics added a whole new layer of difficulty and complexity to this module and it really sucked for those that were not able to keep up with the earlier half. Nonetheless, contrary to most people's opinion, I actually quite enjoyed the module. I really vibed with Prof Colin's lecture style, something about it just made me want to listen to the lectures and learn. The assignments were not impossibly hard but also pose enough of a challenge for you to have to think abit and not just cruise through them. Labs were a bit of a hassle, especially the since physical attendance is required and the only slot I could get was at 9am on Mondays. Having to wake up at 7am every week just for a 1hr session that usually ends in 20minutes was not a good experience. Difficulty wise, the labs were definitely manageable and I particularly enjoyed the hands on we had with implementing circuits on the lab circuit board. Midterm was surprislingly manageable for the most part and likewise Finals was too. The former was more of a time scramble while the latter involved more thinking and calculation espcially with the caching and pipeling questions. I ended up not doing as well as I expected but I was satisfied with the knowledge I gained from the module. ",
+    "closingRemarks": "Quite a fun module despite its difficulty. I probably lucked out with the Finals being easier given the fact that it was open book but I'll take it.",
+    "image": "/images/reviews/logic.jpg"
   },
   {
-    "name": "ES2660",
+    "name": "ES2660: Communicating in the Information Age",
     "taken": "AY22/23 Sem 2",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "intro": "The first of 2 dreaded 'presentation' modules that all CS students have to face. Most people take it early on with the intention to S/U this module and I went in with the same mindset.",
+    "breakdown": [
+      "35%: CA1 - SOP for online information consumption (Individual critical response + group presentation)",
+      "30%: CA2 - Online Commentary",
+      "15%: CA3 - Impromptu Speaking",
+      "20%: Class Participation"
+    ],
+    "review": "I honestly don't really know what to talk about this module. As much as I really hated anything to do with public speaking and presentations, i can't really blame them for adding this to our core curriculum. Content wise, it covered 2 different critical thinking frameworks which ended up as the basis for CA1. I was fortunate enough to take the same tutorial class with a few others I knew/got to know and we were able to get through the group work portion relatively well. As for CA2, it comprised writing a commentary on a specific focal text of our own choice that adheres to the umbrella theme of 'Engineering Trust in Digital Transformation'. Most people did not like this but this portion was the easier for me since its basically just an individual essay about your own opinion. nothing to hard to come up with. Getting used to formal writing was a pain but it ended up fine. CA3 was the impromptu speaking portion, where we had to present a speech on a random topic given to us 5 minutes before the presentation. I was not confident at all in my speaking abilities and I was right to be so. We did have many practise sessions before but even then I did not volunteer to speak at all. For the actual assessment, I ended up getting a topic on a specific book and I ended up being able to smoke out some speech that seemed coherent enough to me but it still did not feel great leading up to it. The feeling after however was heavenly, knowing that I was done with this module. Class participation consisted of attendance, the classic raising and answering questions as well as facilitating discussion and lastly a panel discussion that everyone has to take part in. Personally, I think I prepared sufficiently for the discussion but I kind of got 'sabotaged' by another classmate who was being immature and intentionally difficult with accepting responses. Also had the pleasure of getting a difficult question straight from the tutor because no one else was asking questions after my elaboration (maybe I was that thorough with my research, definitely not coping). All in al, it really felt like a big weight off my chest when I was done with this module. It contained a lot of fluff content but taking it with others definitely made it more bearable. Props to Jodie, the tutor and also the module coordinator, she really tried her best to make the module as engaging as possible.",
+    "closingRemarks": "Would not do ever again. No matter how much I try to sugarcoat it, I just can't. No flame to the teaching staff, but these kinds of communication modules are just not for me.",
+    "image": "/images/reviews/comms.jpg"
   },
   {
     "name": "GEA1000",
@@ -130,7 +153,7 @@
     "image": ""
   },
   {
-    "name": "CS2030S",
+    "name": "CS2030S: Programming Methodology II",
     "taken": "AY23/24 Sem 1",
     "intro": "",
     "breakdown": ["", ""],
