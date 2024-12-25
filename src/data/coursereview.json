@@ -117,31 +117,43 @@
     "image": "/images/reviews/comms.jpg"
   },
   {
-    "name": "GEA1000",
+    "name": "GEA1000: Quantitative Reasoning with Data",
     "taken": "AY22/23 Sem 2",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "intro": "Yet another module that most NUS students take to clear the data literacy pillar.",
+    "breakdown": [
+      "11%: Quizzes x 6",
+      "4%: Pre + Post course exercises",
+      "15%: Tutorial Participation + In-class quizzes",
+      "30%: Group Presentation",
+      "40%: Final"
+    ],
+    "review": "I don't have much to say about this module to be really honest. It went just as I had imagined after reading the description and objectives of the course. The lectures were in the form of short videos meant for us to watch at our own pace. Tutorials were every other week, meaning workload was considerably low compared to other modules a freshman would take. Content wise, it also wasn't difficult at all, it covers very elementary statistic concepts like the 5 number summary and also taught us how to use Excel and R to do some basic data analysis. Quizzes were not hard and tutorial sessions, while long, were okay for the most part. For the group presentation, each group was given an article and then do analysis and present our findings and conclusion to the tutor in the last week. I was fortunate enough to have a group willing to commit to the module, contrary to some others who went in with the intention to S/U it. Group presentation went well and I honestly didn't feel to nervous this time since it was just presenting to one person, our tutor and there were no restrictions on reading off a script. Finals however, took me by surprise. It was not the hardest per se but I definitely underestimated it and did not prepare well enough. I ended up making many careless mistakes which ultimately costed me quite a lot given the steep bell curve. Overall, a decent module both in terms of difficulty, workload and potential to score well.",
+    "closingRemarks": "Very touch and go elementary statistics module meant for all university students regardless of major. If you are looking to just clear the GE pillar, this is fine, else you can opt for the alternatives like DSA1101 and ST1311.",
+    "image": "/images/reviews/gea.webp"
   },
   {
-    "name": "GEC1009",
+    "name": "GEC1009: Drugs and Society",
     "taken": "AY22/23 Sem 2",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "intro": "As the name suggests, this module covers the topic of drugs and its impact on society. Nothing really much more to it.",
+    "breakdown": [
+      "15%: CA1 - Class test",
+      "20%: CA2 - Graphic commentary",
+      "10%: CA3 - Video blog",
+      "25%: CA4 - Group presentation",
+      "30%: Final"
+    ],
+    "review": "I went into this module wiht the intention of satisfying some of my curiosity about knowledge on drugs, specifically the scientific aspect of them; how they are made, how they work and what they do. Initially, there was a glimpse of that, but as expected from the module title, it quickly became more of a history lesson  instead, covering the hisroty of drug use in the past on how it shapes society now in the present. Content got stale pretty quickly and I found myself not as interested in the module as I was when bidding for it in the first place. After sharing with a friend in Pharmacy, I also got to know that one of the lecturers + module coordinator also did not really have a good reputation. All in all, content-wise started out mildy interesting but petered out somewhat quickly into the semester. That is on me though, since I should have expected that given the module title and description. The real problem with this module is the workload. Keep in mind that this is merely a GE module at Level-1000. The fact that this module had comparable workload to some Level-2000 CS modules I was taking that semester 2 was not a good sign. CA1 and Finals are dismissable since they were one off assessments, but the addition of 3 separate CA assignments seemed excessive to me. Additionally, they weren't the kind of tasks where you could simply complete easily. One of them was a group project report + presentation that obviously will not go well for a module where you don't even get to meet your randomly assignmed groupmates. The other 2 were individual assignments with a creative twist  -- a graphic commentary and a video blog, making grading becoming increasingly subjective. I wanted to take this module to counteract stress from CS modules but it ended up being a source of stress itself, with the CS modules actually helping me relax more. ??? The best part is they announced mid-semester that this module was phasing out at the end of the semester, so I was basically the last batch to take this module at Level-1000, because the workload was indeed recognised to be way higher than reflected and it was being revamped into a Level-2000 module. Just my luck to have to sit through this module. ",
+    "closingRemarks": "TLDR: S/U module especially if you are taking this to fill up space in your timetable. Workload is significantly heavier than other level-1000 modules especially a GE module. ",
+    "image": "/images/reviews/drugs.webp"
   },
   {
-    "name": "MA1521",
+    "name": "MA1521: Calculus for Computing",
     "taken": "AY22/23 Sem 2",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "intro": "The other foundational math module that CS students have to take, MA1521 covers calculus.",
+    "breakdown": ["35%: Online Quizzes x 5", "65%: Final"],
+    "review": "One look at the assessment breakdown and you already know you won't be scoring well unless you are a Math major, willing to put in a whole lot of effort or simply Math prodigy. Content wise, it started building on JC calculus before covering more advanced topics like multivariable, indefinete calculus, polar coordinates etc. The main issue was pacing. They essentially spedrun about 4 years worth of calculus content into a few weeks, assuming you are still fresh from JC (RIP my fellow NSmen), before moving straight into the more advanced and new concepts. Lectures were not worth it at all, with the lecturer just following through the slides and boring the whole audience. I didn't attend a single tutorial at all because the tutorial questions were manageable enough and honestly didn't seem to warrant extra help. BUT, the online quizzes were a different story. Those questions spike in difficulty and honestly sucks because each individual question is 1% of your full grade given the weightage. Finals was similar with the difficulty much higher than those found in tutorials, catching many people off guard if they were not able to get their hands on PYPs. ",
+    "closingRemarks": "Just do the bare minimum and try to cram a few days before the Final. Remember your cheatsheet, you will definitely need it. If you are satisfied with your minimum effort grade, good for you, else just S/U it and don't think about it anymore. Not worth giving more effort than necessary.",
+    "image": "/images/reviews/no.png"
   },
   {
     "name": "CFG1003",
