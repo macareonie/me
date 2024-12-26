@@ -8,7 +8,7 @@ const ExpandableCard = ({ title, isExpanded, onExpand, children, image }) => {
       style={{ maxHeight: isExpanded ? "" : "80px" }}
     >
       <div className="p-6">
-        <h3 className="text-center text-2xl font-bold mb-4 dark:text-gray-100">
+        <h3 className="text-center text-xl font-bold mb-4 dark:text-gray-100">
           {title}
         </h3>
         <div

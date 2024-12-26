@@ -82,7 +82,7 @@
     "taken": "AY22/23 Sem 2",
     "intro": "Arguably the most important module in the CS curriculum, DSA is the backbone of everything CS no matter what area you wish to pursue.",
     "breakdown": ["Couremology", "Midterm", "Final"],
-    "review": "First off, this was the first module I took where the grade breakdown was not given at all and honestly I felt that that was a very based decision from Prof Seth. He constantly reiterated that the module was not at all about grades and that the main goal is to learn and understand the content well. Honestly felt refreshing to see him get a little pissed at the unbearable CS zoom chat which kept asking about grade breakdown after he already covered his stance on it multiple times. He is a really good teacher but was let down by the fact that there is simply way too much content to cover in the 13 weeks. On top of having to learn Java on the fly, we covered basically every single data structure and algorithm you can think of, from linked lists to trees to graphs to sorting algorithms to hashing and even dynamic programming. Ince again, I wouldn't say the workload was very heavy, it just required consistent viewing of the lectures, attending tutorials and the somewhat weekly coding assignments on Coursemology. The assignments could range from simple to hard but with the help of my good friend Github, it was not too hard to complete them, albeit at the cost of my own understanding and learning. Coursemology XP was not too hard to accumulate especially with the lecture quizzes and tutorial attendance but Midterm and Finals was a whole different ballgame. It was all MCQ/MRQ but honestly at this point I would rather have open ended questions and proving questions back because I could at least get some (I hope) partial marks from those. These MCQ/MRQ questions were basically full on gambling for me because 1. The problem statement was too long and complex to understand, 2. The unnecessary large amopunt of options they gave were way too long, complex and similar to one another, 3. Required a lot of time to process even with a solid foundation of the content, or 4. ALL OF THE ABOVE. I was very sure I would do badly for the finals and even I did not expect myself to end up as the 10% percentile. Miraculously stil managed to scrape a B grade but it was a tough module, assessment wise for sure.",
+    "review": "First off, this was the first module I took where the grade breakdown was not given at all and honestly I felt that that was a very based decision from Prof Seth. He constantly reiterated that the module was not at all about grades and that the main goal is to learn and understand the content well. Honestly felt refreshing to see him get a little pissed at the unbearable CS zoom chat which kept asking about grade breakdown after he already covered his stance on it multiple times. He is a really good teacher but was let down by the fact that there is simply way too much content to cover in the 13 weeks. On top of having to learn Java on the fly, we covered basically every single data structure and algorithm you can think of, from linked lists to trees to graphs to sorting algorithms to hashing and even dynamic programming. Ince again, I wouldn't say the workload was very heavy, it just required consistent viewing of the lectures, attending tutorials and the somewhat weekly coding assignments on Coursemology. Tutorials or at least mine in particular were not the most helpful, since my TA did not seem like the most familiar with teaching given that he literally took the module a semester before, but he still gave it his best and I don't blame him for it. The assignments could range from simple to hard but with the help of my good friend Github, it was not too hard to complete them, albeit at the cost of my own understanding and learning. Coursemology XP was not too hard to accumulate especially with the lecture quizzes and tutorial attendance but Midterm and Finals was a whole different ballgame. It was all MCQ/MRQ but honestly at this point I would rather have open ended questions and proving questions back because I could at least get some (I hope) partial marks from those. These MCQ/MRQ questions were basically full on gambling for me because 1. The problem statement was too long and complex to understand, 2. The unnecessary large amopunt of options they gave were way too long, complex and similar to one another, 3. Required a lot of time to process even with a solid foundation of the content, or 4. ALL OF THE ABOVE. I was very sure I would do badly for the finals and even I did not expect myself to end up as the 10% percentile. Miraculously stil managed to scrape a B grade but it was a tough module, assessment wise for sure.",
     "closingRemarks": "Enjoyable Prof; Not so enjoyable content. Pretty sure some of the content covered could be pushed over the other modules, which would make it so much more manageable and also make sense teaching wise, but I am but a lowly student with no say in such issues.",
     "image": "/images/reviews/tree.webp"
   },
@@ -156,53 +156,117 @@
     "image": "/images/reviews/no.png"
   },
   {
-    "name": "CFG1003",
+    "name": "CFG1003: Financial Wellbeing Introduction",
     "taken": "AY23/24 Sem 1",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "intro": "Simple OTOT e-learning module",
+    "breakdown": ["NIL"],
+    "review": "Pretty sure most people take this because it is required to take CFG1004, a popular 2 mc module. Pretty much covers simple financial concepts to do with budgeting and managing your money. Its mostly common sense and should not take more than half a day to complete, should you wish to thoroughly read through the interactive slides . ",
+    "closingRemarks": "No harm taking this module, especially if you are planning to take CFG1004. ",
+    "image": "/images/reviews/budget.jpg"
   },
   {
     "name": "CS2030S: Programming Methodology II",
     "taken": "AY23/24 Sem 1",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "intro": "A follow up to the first CS module, CS2030S covers more advanced programming concepts and paradigms in the Java language.",
+    "breakdown": [
+      "5%: Quizzes",
+      "10%: Lab Assignments",
+      "15%: PA1",
+      "25%: PA2",
+      "15%: Midterm",
+      "30%: Final"
+    ],
+    "review": "The last of the holy trinity of CS modules, CS2030S covers topics like OOP, inheritance, polymorphism, interfaces, abstract classes, generics, exceptions, streams, lambdas, and more. The workload was not too heavy, prior to previous semester because the supposed killer weekly labs were modified and made simpler for some reason. There were also no tutorials and the weekly recitations merely served as an recap of the week's content and some form of reinforcement learning. Nonetheless, it was still somewhat of a time sink since the labs were tedious having to do it in VIM, which honestly is not great despite what some people say. The assessments (Midterm and Final) honestly can range in difficulty depending on topics you focus on while revising but should generally include some free marks and some subparts that you could hazard a guess and aim some partial credit. Personally, the real headache for me were the two timed Practical Assessments. Having to refer to a problem statement and refactor and/or write new code that adheres to certain requirements was not easy, especially when you have to do it in a limited time frame. It was good having a small bit of Java experience given I took CS2040S the semester before, though that only lasted a week or 2. While CS2040S did use Java, it only covered very very basic syntax whereas CS2030S focused a lot more on the correctness of code and taught us how to write good and sensible code while abiding by various principles. I must say this module was quite enjoyable despite content being slightly heavy, dry and complex at times. Prof Adi is a great lecturer and I appreciated his cheery nature and humour. The way he explains concepts is also concise and he doesn't hesitate to help students in clarifying concepts be it during lecture, recitations or honestly anytime. Furthermore, as the only professor coordinating such a big module, it is testament to his ability and dedication to the module. Other modules should definitely learn from him. I also appreciate the fact that he is a fellow otaku and often sets papers with questions revolving around certain games or anime he currently has interest in (I had a One Piece themed paper and I heard they recently had a Tears of the Kingdom and a Jujutsu Kaisen themed paper). Setting aside the glazing for now, CS2030S definitely gave me insight into the world of programming, allowing me to understand that there is a lot more to writing code than just writing efficient code catered to certain problems as seen in CS2040S. All in all, the workload does not seem too heavy, but the content is definitely more complex and requires more time to understand and digest, especially in the second half. However, should you be able to break down everything taught and internalise it, you should be able to score well in this module and most definitely feel very accomplished. ",
+    "closingRemarks": "You have to take this as a CS student no matter what, so honestly just try your best to go in with a positive mindset. I feel that this is the first module that actually teaches you how to code better, which I felt should have been covered in its prerequisite, CS1101S. ",
+    "image": "/images/reviews/java.jpg"
   },
   {
-    "name": "CS2105",
+    "name": "CS2105: Introduction to Computer Networks",
     "taken": "AY23/24 Sem 1",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "intro": "First non core CS module I took, and one that would contribute to a Networks Focus Area I planned on pursuing.",
+    "breakdown": [
+      "5%: Tutorial Attendance + Participation",
+      "20%: Programming Assignments",
+      "25%: Midterm",
+      "50%: Final"
+    ],
+    "review": "Frankly, the main incentive to taking this module was that it is part of the Networks Focus Area which seemed to be the easiest focus area to achieve while having the least workload compared to other ones such as god forbid, Algorithms or Artificial Intelligence. However, I was quite enjoying the content in the first half of the module. It seemed like more of a trivia module with concepts not being fully delved into, given the fact it is an intro module but it covered enough to keep me interested. Second half, I started to lose interest due to the way the lecture was conducted which felt a lot more seminar-style, with the professor sharing a lot of his own experiences and stories and expecting discussion with his audience. I can't really explain it but I did not vibe as well with this style and ended up not even watching the recorded lectures and merely relied on the slides and Google to learn the second half content. Workload as promised was relatively light, with tutorials literally taking 20 minutes to complete max each week. The 3 lab assignments were also not too difficult with the help of Github. Midterms was a relatively manageable MCQ paper with difficulty only attributed to some trickiness and the most random and obscure fact you could find in the slides that was barely covered but still examinable (RFC???). Finals gave us open ended questions which was a nice change until you realise that they completely reused an old paper, which meant that students who managed to get the paper and print it out for this OPEN BOOK exam were basically guaranteed full marks. The teaching staff were also very reluctant to giving out PYPs possibly due to this but of course, some students found a way to get it anyway. Still, I did fairly well and was somewhat entertained in the first half, so I would say it is a decent module.",
+    "closingRemarks": "Potentially easiest non core CS intro module you can take. If you are looking for a chill module to take, this is it. ",
+    "image": "/images/reviews/network.webp"
   },
   {
-    "name": "CS2109S",
+    "name": "CS2109S: Introduction to AI and Machine Learning",
     "taken": "AY23/24 Sem 1",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "intro": "The newest addition into the core CS curriculum if I am not mistaken. Notorious reputation since its inception under Prof Ben Leong but I was willing to give it a shot earlier into University to get the pain over with quickly and boy it did pay off.",
+    "breakdown": ["30%: Coursemology XP", "35%: Midterm", "35%: Final"],
+    "review": "There are definitely many complaints about the module, but I feel that some of them are unjustified and mostly due to the bias against Prof Ben Leong, who I won't say I am a fan off but purely based on its content and assessment structure, I do feel the module is not as bad as people make it out to be. The module covers the very basics of AI and ML, with AI being the focus in the first half and ML in the latter half. Starting with the first half, I would say the introduction to AI and some technical jargon was fine. The refresher on sorting such as BFS and DFS was manageable too. We then moved on to newer searches such as A* and minimax with alpha beta pruning which took some effort to learn and understand but for the most part, it was doable. The main issue for me was heuristics and once again, proofs return to give me problems. I found it hard to prove why a certain heuristic works or exhibits certain attributes like admissability, consistency and dominance. This, alongside an unfotunate wrong intepretation of a problem definition essentially costed me my Midterms, which I did really really badly for (2 s.d. below mean lol). From then, I was basically giving up on this module and just wanted to get through it and scrape a pass. It helped that Coursemology XP was relatively easy to accumulate with the large amount of opportunities to gain them just by consistently attending tutorials, doing lecture quizzes and attempting the problem sets. The content in the second half was also not tested in a pen and paper final (more on that later), so I was comfortable simply treating the second half content as more of a trivia module and focusing on other modules instead. I had the opportunity to have the Head TA as my tutorial TA and she was good in conducting the classes, starting out with a recap of the past lecture's content before moving on with discussing the tutorial questions. Nothing really more to add there. As for the Problem Sets, for some reason, I struggled the most in the first PS0 which aimed to give us a crash course on python, matrices and NumPy, things we were going to encounter a lot further down in the module. Subsequent Psets got somewhat more manageable given the help of ChatGPT (haha use AI to solve AI) and collaboration with friends. As the content covered became more complex, so did the assistance provided in the Pset, since they really are trying to teach the concepts and they do not expect a newbie to be able to code something like a full CNN on their own. Now, we finally come to the star of the module, the Final assessment. If i remember correctly, the semester I took this module was its 4th iteration, and they had been trying different forms of assessments. In my semester, they stuck to the previous year's method of a take home timed coding/practical assessment, whereby we had a full 28 hours so deliver and submit a ML model that works well on the provided dataset, Grading would be done based on the accuracy of your submitted model, compared against the rest of the cohort. Additionally, there is also a report component which merely served as free marks, if you properly document information according to its requirements (basically guarantees you do not get a 0). Let's just say it was definitely a Finals to remember. I was really glad I attempted the Mock PA that they realised a week before the actual Finals because it gave me an idea of what to expect. My particular Final involved creating a model that could take image data as input and output a certain value. I ended up staying up a full 12 hours from the assignment release time to 8 am the next morning to create a decently working model before sleeping. I then spent that evening refining it more and making a few changes before submitting it with no issues. I was not too confident in my model but was decently satisfied with the effort I put in, aiming to hit at close to upper quartile based on the regular benchmark updates they provided. I was really surprised to find out I actually did really well for the Finals component, and it ending up compensating for tha abhorrent midterm I had. I ended up with a B+ grade, which was a huge relief for me. To summarise, content wise, I am not the best judge for it but I felt that the first half was definitely doable. The second half is when a lot of math is introduced and for some reason skimmed over. To add on, the fact that it was barely tested in the Finals essentially meant that many people did not pay much atention to it, so while it is alot more abstract and difficult I do not have much recollection on it. Workload wise, it is definitely on the heavier side, but it is manageable if you are able to keep up with the content and not fall behind. The Psets were meant to be completed in a day and should not pose much of a problem if work is done consistently. The moment there is backlog, thats when things get difficult, but that could be said for nay module out there to be honest. The Finals was definitely the highlight of the module, and I would say it was a good experience to have, especially since it was the first of its kind I have ever experienced. But maybe that's just in hindsight. I really would not want to do it again. The biggest issue of this module, however is the admin. The fact that our midterm results were only released in lat final week of the semester already tells you what you need to know. Mistakes in the lecture slides are admissible as that is human nature. Late release of Problem Sets or issues with them due to the TAs are also fine; we all make mistakes. But the fact that the midterm results release kept on getting postponed with no actual updates on its progress except, `we are still working on it`, is not acceptable. I rather a truthful statement like, `We have not enough manpower` or `I had other academic committments` than to be kept in the dark or worse given a vague statement. The way the submission of the Finals was also handled poorly in my opinion even though it did not concern me as much. The Finals was conducted on the weekend of recess week, with the submission dealine at 2359 of the day before the first day of Examination week. Several people who had morning exams the next day were not happy with this. Coupled with the fact that the load on the Coursemology servers the evening of submission was so high that many people had trouble checking and submitting their work, it was a recipe for disaster. I was not affected since I did my checks earlier and followed the advice to incremently submit my work guarantee a submission should there be any issues such as this but clearly, many didn't listen. To keep things short and from an objective viewpoint, I would say that the students having troubles with submitting and still venting, complaining and even cursing on the forum is just not acceptable. We are all adults here and that sort of childish behaviour is not warranted. Sure that sort of thing would definitely cause a lot of stress on those experiencing it, and indeed it is also partly the teaching staff's fault for not anticipating this even though they conducted the same assessment style the semester before and deemed it workable for this semester too, but to throw a tantrum on the forum just further makes me digusted to be a part of this CS cohort with those people. As much as I am not a fan of the administrative side of this module (honeslt just the midterm result fiasco), they should not be judged to harshly for the Finals incident. Sure, they may have underestimated tohe load on the servers but they did try to circumvent the issue by advising people to, as mentioned before, incremently submit your work and not submit in the last minute or in this case hour, but people just did not listen. Still, they did leave the submission dealine open for a few more hours into the night to allow those affected to submit their work, so I would say that they did try to rectify the issue as best they could. And for those that did complain about fairness of this decision, honestly just piss off. ",
+    "closingRemarks": "In summary, you can definitely tell that there is a lot more room for improvement in the module, but I would say it is not as bad as people make it out to be.",
+    "image": "/images/reviews/aiml.png"
   },
   {
-    "name": "HSI1000",
+    "name": "HSI1000: How Science Works, Why Science Works",
     "taken": "AY23/24 Sem 1",
-    "intro": "",
-    "breakdown": ["", ""],
-    "review": "",
-    "closingRemarks": "",
-    "image": ""
+    "intro": "Basic CHS module that most FASS students take in their first year. No idea why I took it but I did.",
+    "breakdown": [
+      "10%: Weekly Quizzes",
+      "10%: Exploratoriums",
+      "30%: Workshops",
+      "15%: Midterm",
+      "35%: Final"
+    ],
+    "review": "Went in expecting a lot of fluffy content and I did get that, but there were also some interesting takeaways I got from it. There were 3 main blocks of content, each covered by about 4 weeks of lectures each, taken by a different Prof. Lectures were mostly fine, but honestly, I had other modules to worry about, and mainly used the recordings as background noise while doing other work; they were not really necessary and you could do without them but I have a habit of just 'watching' them anyway. The tutorials or workshops were long and more seminar like with a lot of class discussion and participation marks. Not exactly my favourite but I survived. My TA was also very chill and engaging to the experience was not to bad. The labs/exploratoriums were basically lower secondary or even primary school style science practical experiments. Pretty simple and you do it in groups with the only submission being a report of your findings at the end. A little RNG based on where you sit but most people get decent marks for it anyway. They aren't trying to fail you here. Come one, it's an intro CHS module. Midterm and Finals were both open book MCQ/MRQ papers. People struggled with the time aspect but I usually am good with that so I managed fine. Questions were mainly common sense and some were CTRL + F-able, so bell curve was rather steep. The highlight of the module was probably the assignment where the task was to visit a nature reserve and do a bunch of tasks there like measuring trees and observing the different species of flora and fauna. I went with a willing friend and honestly even though it ended up raining, it had been a long time since i went out an dactually physically touched grass, so it was a pleasant experience. The report took a lot more time to cook up than I expected but it was fine. Surprisingly, this module was one of the more enjoyable modules I took this semester, despite the fluffy content and social interaction requirement.",
+    "closingRemarks": "Managed to clear the module for my Interdisciplinary requirement + they managed to get me out of my room and touch grass. Props to them.",
+    "image": "/images/reviews/hsi.png"
   },
   {
-    "name": "IS1108",
+    "name": "IS1108: Digital Ethics and Data Privacy",
     "taken": "AY23/24 Sem 1",
+    "intro": "Fluffiest module in the world. Redundant module.",
+    "breakdown": [
+      "10% Tutorial Attendance",
+      "70%: Group Work CA",
+      "20%: Final"
+    ],
+    "review": "Don't want to spend too much time on this because it simply isn't worth my time. Pretty sure most people or at least the normal functioning people in society who have an ounce of common sense already know a thing or 2 about ethics. The fact that this module is even a thing is beyond me. How is somethign like ethics even gradeable. Its basically all common sense, but somehow the module was able to produce 12 weeks worth of content with lectures and even 2 to 3 videos on it per week. The tutorials were also a joke, with the tutors seeming like they don't really care too. This semester, they revamped their assessment system because of the many issues they faced the previous semester adn they added more CA componenents. Now, every tutorial essentially requires group discussion and presentation of a MIRO board analysing the ethics of a given problem statement from the perspective of various parties. the thing is, I don't think anyone even takes the module seriously and many tutorials and their TAs do not even enforce this. There was also a supposed debate week, but it ended up being more similar to what the weekly group discussion was like. Lastly, the group project which involved creating a product and discussing the ethics of it ended up as just a simple presentation where everyone just reads off their phonnes. Grading was so variable and subjective that I honestly did not care about it. Finals was an open book MCQ paper that had pretty irrelevant content to be completely honest with you. Also, they clearly cannot plan things right if you have 3 separate venues and still have people sitting on the floor of a lecture theatre to do their Final exam. The whole module seemed more of a formality than anything else. You tell people that you took a module on ethics and they go, 'oh cool'. But in reality, it was just a waste of time. ",
+    "closingRemarks": "Try your luck in finals. If you score well, good. If not, S/U.",
+    "image": "/images/reviews/no.png"
+  },
+  {
+    "name": "CFG1002: Career Catalyst",
+    "taken": "AY23/24 Sem 2",
+    "intro": "Module that lasts half a semester and aims to help students with their career in the forseeable future.",
+    "breakdown": ["NIL"],
+    "review": "Very low workload module that essentially involves a few e-learning lessons and a workshop that teaches you about navigating towards career readiness. By the end of the module, you would have the chance to create a resume as well as try out a mock interview using the VMOCK platform. There are a few quizzes here and there which are very simple to score in and should not be an issue.",
+    "closingRemarks": "Mostly forgettable module but it does help you create a resume if you already do not have one.",
+    "image": "/images/reviews/cc.png"
+  },
+  {
+    "name": "CFG1004: Financial Wellbeing - Art and Science of Investing",
+    "taken": "AY23/24 Sem 2",
+    "intro": "Module that does not tell you what to invest, but what to look out for should you wish to invest.",
+    "breakdown": ["NIL"],
+    "review": "Nothing much to cover here too. This module is a follow-up to the financial management module CFG1002, and instead teaches you about how one can grow your wealth through investing. It has the same structure of OTOT e-learning lessons and goes through the basics of investing, the different types of investments, the risks and rewards of each and how to manage your portfolio. ",
+    "closingRemarks": "Chill 2 MC module that could potentially help people who wish to get into inevsting. Commonly taken by people who have no idea what to do with their free MCs.",
+    "image": "/images/reviews/investing.jpg"
+  },
+  {
+    "name": "CS2101: Effective Communication for Computing Professionals",
+    "taken": "AY23/24 Sem 2",
+    "intro": "The second of the 2 dreaded 'presentation' modules that all CS students have to face. Has to be taken alongside CS2103T.",
+    "breakdown": [
+      "20%: CA1",
+      "25%:CA2",
+      "15%:CA3",
+      "20%:CA4",
+      "20%: Tutorial Attendance + Participation"
+    ],
+    "review": "Relatively notorious module that most people save their S/U credits for as well. I was not looking forward to it, but looking back I guess I did luck out in several aspects and the experience turned out to not be too bad. As expected from a communications module, the assessment basically involved presentation after presentation after presentation. In the first session of week 1, we were informed that there will be approximately 7 to 8 presentation, inclusive of rehearsals for the actual CA graded ones. That was enough to make me want to sack off the module, but the one saving grace was that I took the module with 4 other people I knew and the in the small class of 20, I lucked out when I was grouped with 2 of them for our first presentation. This was relatively simple and involed sharing insights into a particular article that we were to read up on and present to the class. The first CA (2nd presentation) involved the same group of 3 and this time required a longer presentation including content slides on a chosen communication topic (My group was assigned Emotional Intelligence). The first half of the module had tutorials basically alternating between some a speedrun of some content regarding communication skills, rehearsals for presentations and then the actual presentations themselves. In the second half, we had 3 CAs, thankfully only 1 of them involved a presentation. This presentation, however, was done in parallel with the software development project in CS2103T. In a way, this helped in preparation of the content for this presentation, since we were now sharing about a product we were actively working on instead of a random topic under the sun. It involved establishing a proper setting for the presentation such as a Tech Convention or a Shareholders meeting and having to adhere to such settings, be it dressing the part (formal wear) and ensuring that a non-technical audience is still able to understand the presentation. I was fortunate enough to have a group that I already knew, so navigating through both the development aspect in CS2103T and the presentation aspect in CS2101 was not too difficult. For CA3, it basically was just a submission of a written User Guide on the application developed in CS2103T that likewise adheres to the target audience the product is meant for. The final CA was an interesting one and is something that my personal TA and the course coordinator were working on. 'Insightful Musings' was an unessay assignment where you could submit your reflections of the module in any form you wish. the only catch is that it cannot be an essay. I initially was very excited to create a board game that depicts my journey through the module but after some discussion with my TA, it ended up falling through since there wouldn't be a proper way to evaluate and grade it objectively. Ideas of some form of artpiece also fell through. In the end, I went with a more vanilla option in a 'Draw my Life' video which I rushed out in a day or 2. Not too confident in my drawing skills, let alone my narration ability but it will have to do. Many people do not enjoy this module and I can definitely relate to them. The sheer amount of presentations is way too much especially for someone like me who absolutely despises public speaking. Content wise, it also involved a lot of fluffy content which frankly, will probably not be used in actual real life situations too. Setting those aside, I still did have a somewhat pleasant experience, mainly due to the class and tutor I had. The class was surprisingly funny to hang out with and really gave me nostalgia of highschool and JC vibes. It was nice to see so many people in class, including the TA share the same interest in games, allowing for some fun conversations before class stated and even during some breaks. I have seen NUSmod reviews complaining of subjective grading due to bias and I can definitely understand their point of view, but the game is the game I guess; The one time playing so many degenerate games helped in my academic life.",
+    "closingRemarks": "An introvert's worst nightmare. Do take with as many friends as you can. Do have a positive mindset though and you will benefit. Despite the fluff and workload, I did actually see significant progress and improvement in my presentation ability.",
+    "image": "/images/reviews/2101.jpg"
+  },
+  {
+    "name": "CS2103T + CS2103R: Software Engineering",
+    "taken": "AY23/24 Sem 2",
     "intro": "",
     "breakdown": ["", ""],
     "review": "",
@@ -210,8 +274,51 @@
     "image": ""
   },
   {
-    "name": "",
-    "taken": "AY",
+    "name": "CS2106: Introduction to Operating Systems",
+    "taken": "AY23/24 Sem 2",
+    "intro": "Another core module that builds on CS2100 and covers everything to do with Operating Systems.",
+    "breakdown": [
+      "3%: Lecture Quizzes",
+      "2%: Tutorial Attendance",
+      "25%: Labs",
+      "20%: Midterm",
+      "50%: Final"
+    ],
+    "review": "Touted as a relatively difficult module with a lot content to memorise. I can confirm that that is indeed true. The module covers the basics of Operating Systems, starting with a brief history and its structure and architecture. It then moves on to 3 main topics, Process, Memory and File Management. The first half kicks off with our old friend MIPS to better illustrate how processes work. I really was not happy seeing its return but thankfully it lasted just the first tutorial. Subsequently, everything was basically new knowledge. I do not wish to go in depth to the content covered btu I will try to provide a brief summary. The first big topic was on processes: which is basically an instance of a program. We covered everything to do with process: what consitutes one, their different states, the different functions to create and navigate between these states, and the different scheduling algorithms that can be used to manage them. We also learnt about how such process interact and communicate with one another, and also the issue of synchronization, which is definitely the most complex and mind boggling aspect of the processes topic and arguably the whole module. Till now, I can't say I am confident in implementing a sempahore or mutex to solve Dining Philosopher's or similar synchronization problems. Next up, we have memoery management which honestly seemed more intuitive to learn. It started out with assumptions of how memory is managed in the OS. As we moved on to cover aspects like paging and segmentation, these assumptions were lifted to illustrate the problems that such methods were addressing. Admittedly, it can get really confusing especially when trying to figure out the different page tables and trying to translate them but with enough effort and practise, it can be done (or so I heard, I was and still am really bad at it). Last up was File management which I would say is the easiest of the 3, since we have the most experience with it, given that any one that uses a computer would have interacted with a file or 2 (million). Lectures were not too bad, but because of the sheer volume of content, it was hard to keep up with live pace and I preferred watching recordings later on. Watching earlier recordings from 2019 also helped quite a bit. Tutorials were conducted weekly and I had a pretty good tutor, so it had a relatively fine experience there too. As for the 4 labs, it ended up as pair work through a list of tasks before turning up for your lab session to present a code demonstration to a TA and answer some questions if the need arises. The labs were not too difficult but having to refresh on C and learn a bit of scripting did take some time and effort (Once again, ChatGPT and Google are great here). Midterms was an all MCQ paper but consisted of some pretty tricky questions that I definitely fell for. On the bright side, there were some ambiguous questions that resulted in the midterm constantly being regraded for quite a while. Finals still had some MCQs but also involved open ended questions that required more brain work. I honestly cannot recall too much about it, meaning that it was probably an average paper, not too easy but also not difficult to the point where I get PTSD from it. Ultimately, decent module once again, content heavy but manageable with consistent work and effort. Teaching staff is also fairly comptetent. Prof Nitya the admin goat.",
+    "closingRemarks": "You cannot escape this unless you fly to another country. Just try your best to keep up with the content and you should be fine. ",
+    "image": "/images/reviews/semaphore.webp"
+  },
+  {
+    "name": "IS2218: DIgital Platforms for Business",
+    "taken": "AY23/24 Sem 2",
+    "intro": "Relatively new module that covers the basics of digital platforms and how they can be used in a business setting.",
+    "breakdown": [
+      "10%: Coursera + Various Surveys",
+      "30%: Assignments",
+      "20%: Midterm",
+      "40%: Final"
+    ],
+    "review": "The module starts off with some accounting basics and financial statement analysis in the first half. It then moves on to the time value of money and introduces platform thinking, and finally ending with marketing. Really low workload, consisting of 4 homework assignments, one of which is a fully paid for Coursera module. The other 3 are relatively simple calculation questions that should not take more than a day to complete. Both the Midterm and Finals were short 20 MCQ papers which were relatively straight forward as well. Midterm only covers the first half and Finals covers the second half so it was much easier to prepare for both assessments too. There were not many PYPs since it is a new module after all but the teaching team did provide a few example questions to refer to. Content was honestly somewhat interesting but it was let down by the cohort that honestly outdid the typical CS cohort I deal with in terms of immaturity and lack of respect. The Professor definitely has the knowledge and is very willing to engage the class during his lectures but it reakky is a shame that the class did not reciprocate. Watching it through the live session was also extremely cringe inducing, seeing people in the LIVE physical venue just straight up conversing with one another over the professor's lecture. It also did not help that the professor did not really try to control them and even acknowledged some of the evidently 'troll' questions that were raised in the PollEV. I would say that the content was interesting and the workload was low, but the cohort really made the experience a lot worse than it should have been. ",
+    "closingRemarks": "Pretty low workload, low brainpower module that is mildly interesting. Perfect for clearing a Interdisciplinary requirement if you can deal with immature idiots. Or just don't watch the lectures",
+    "image": "/images/reviews/2218.webp"
+  },
+  {
+    "name": "ST2334: Probability and Statistics",
+    "taken": "AY23/24 Sem 2",
+    "intro": "Finally ther last of the 3 foundational math modules that CS students have to take. Name explains it all.",
+    "breakdown": [
+      "10%: Quizzes",
+      "5%: Tutorial Attendance",
+      "25%: Midterm",
+      "60%: Final"
+    ],
+    "review": "Really nothing much to it. Just a bunch of probability and statistics content that you have to understand, some of which was covered in JC, some not. This isn't the module you are looking for if you really want to learn about propoer statistics since this covers more basic content, so if you do have this as a core module, that's good. Content wise, it isn't too difficult to understand, but do note that some questions can get pretty tricky especially if you are not careful with your calculations. Lectures were kind of redundant since the pre lecture videos can basially function as the lecture themselves and there was already a detailed set of notes to be referred to provided at the very start of the module. Tutorials were somewhat manageable and actually useful since they usually featured questions that were similar to those from PYPs. Revising these questions would definitely benefit when preparing for assessments. Midterm was on the easier side and was not too much of an issue (I was really careless though). Finals was where the difficulty suddenly spiked but at that point, I really lost all care for the module and was focusing more on other modules. ",
+    "closingRemarks": "Just cram the week before the assessments and you should be fine. Bell curve is steep so you should't expect much anyway.",
+    "image": "/images/reviews/stats.jpg"
+  },
+  {
+    "name": "ALS1010: Learning to Learn Better",
+    "taken": "AY24/25 Sem 1",
     "intro": "",
     "breakdown": ["", ""],
     "review": "",
@@ -219,8 +326,44 @@
     "image": ""
   },
   {
-    "name": "",
-    "taken": "AY",
+    "name": "GEC1044: Chinese Medicine: Theory and Practice",
+    "taken": "AY24/25 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "HSI2013: The Science of Music",
+    "taken": "AY24/25 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "LAJ1201: Japanese 1",
+    "taken": "AY24/25 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "CS3230: Design and Analysis of Algorithms",
+    "taken": "AY24/25 Sem 1",
+    "intro": "",
+    "breakdown": ["", ""],
+    "review": "",
+    "closingRemarks": "",
+    "image": ""
+  },
+  {
+    "name": "CS4226: Internet Archictecture",
+    "taken": "AY24/25 Sem 1",
     "intro": "",
     "breakdown": ["", ""],
     "review": "",
