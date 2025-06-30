@@ -3,23 +3,14 @@
     "title": "Current University Courses",
     "content": [
       {
-        "text": "CP3880: Advanced Technology Attachment Programme",
-        "url": "https://nusmods.com/courses/CP3880/advanced-technology-attachment-programme"
-      },
-      {
         "text": "GEN2060X: Reconnect SeniorsSG",
         "url": "https://nusmods.com/courses/GEN2060X/reconnect-seniors-sg"
       }
     ]
   },
   {
-    "title": "Games I currently am playing",
-    "content": [
-      { "text": "Blue Archive" },
-      { "text": "Wuthering Waves" },
-      { "text": "All Hoyoverse games 😨" },
-      { "text": "Teamfight Tactics" }
-    ]
+    "title": "Books I currently am reading",
+    "content": [{ "text": "Human, All Too Human" }, { "text": "Nudge" }]
   },
   {
     "title": "Shows/Anime I am currently watching",
@@ -29,13 +20,17 @@
         "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren?suggestion="
       },
       {
+        "text": "Apothecary Diaries",
+        "url": "https://myanimelist.net/anime/58514/Kusuriya_no_Hitorigoto_2nd_Season?q=Apothecary&cat=anime"
+      },
+      {
         "text": "Shangri-La Frontier",
-        "url": "https://myanimelist.net/anime/52347/Shangri-La_Frontier__Kusoge_Hunter_Kamige_ni_Idoman_to_su"
+        "url": "https://myanimelist.net/anime/58572/Shangri-La_Frontier__Kusoge_Hunter_Kamige_ni_Idoman_to_su_2nd_Season"
       }
     ]
   },
   {
     "title": "Current Projects",
-    "content": [{ "text": "Realtime Chat App", "url": "" }]
+    "content": [{}]
   }
 ]
