@@ -139,5 +139,27 @@
     ],
     "closingRemarks": "Really easy way to pack lots of vegetables into a meal. The base (without eggs) is also easily kept as leftovers or frozen to be reheated later. You could also add your choice of protein like mince for a heartier meal.",
     "image": "/images/recipes/shakshuka.jpg"
+  },
+  {
+    "title": "Chawanmushi",
+    "intro": "A simple egg custard dish that is a staple in Japanese cuisine. It is often served as a side dish or appetizer and can be made with various ingredients.",
+    "ingredients": [
+      "Egg",
+      "Dashi Stock",
+      "Soy Sauce",
+      "Mirin",
+      "Sake",
+      "Choice of fillings (e.g., shrimp, chicken, mushrooms, ginkgo nuts, Narutomaki (fishcake))"
+    ],
+    "steps": [
+      "Heat up a pot of water to create a steaming environment",
+      "In a bowl, add eggs and dashi with a ratio of 1 to 2.5 or 3. 2.5 gives an eggier flavour while 3 gives a more delicate texture",
+      "Add an equal amount of soy sauce, mirin, and sake to the egg mixture. Adjust according to taste",
+      "To your serving bowls, add your choice of fillings and strain the egg mixture into them, being careful to remove any bubbles or foam",
+      "Cover the bowls with aluminum foil or a lid and steam for 15 minutes on a gentle heat, 20 minutes if a meat filling is used",
+      "Check for doneness by inserting a toothpick or skewer into the custard; a clear liquid should come out and the skewer should come out clean"
+    ],
+    "closingRemarks": "Very simple and versatile dish that can be enjoyed warm or at room temperature. It can be made with various fillings and I enjoy it alongside other Japanese dishes I make such as Soba or Japanese stirfry dishes and rice.",
+    "image": ""
   }
 ]
