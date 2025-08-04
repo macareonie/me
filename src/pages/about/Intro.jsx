@@ -16,7 +16,7 @@ export default function Intro() {
           </h1>
           <br />
           <p className="text-lg text-gray-700 dark:text-gray-300">
-            Hi, I'm Ryan! About to be a 3rd-Year at NUS studying Computer
+            Hi, I'm Ryan! About to enter my final year at NUS studying Computer
             Science, my interests include cooking, games and zoning out to lo-fi
             music of any kind. I enjoy the pursuit of knowledge, whether it be
             learning about obscure trivia or contemplating philosophical

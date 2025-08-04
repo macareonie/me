@@ -161,5 +161,97 @@
     ],
     "closingRemarks": "Very simple and versatile dish that can be enjoyed warm or at room temperature. It can be made with various fillings and I enjoy it alongside other Japanese dishes I make such as Soba or Japanese stirfry dishes and rice.",
     "image": ""
+  },
+  {
+    "title": "Ajitama (Ramen Egg)",
+    "intro": "Marinated eggs that are often served with ramen, but can also be enjoyed on their own as a snack or side dish.",
+    "ingredients": ["Egg", "Soy Sauce", "Mirin", "Sake"],
+    "steps": [
+      "To a pot of boiling water, add your eggs straight from the fridge and let sit for 6-7 minutes for a soft-boiled egg",
+      "Remove the eggs and immediately submerge them in an ice bath to stop the cooking process",
+      "In another saucepan, add an equal amount of soy sauce, mirin, and sake to create the marinade. Gently heat the mixture to boil of the alcohol. Dissolving sugar in the marinade is optional. Sake can be replaced with an equal amount of water",
+      "Once the eggs are cooled, gently peel them and place them in a container",
+      "Pour the marinade over the eggs, ensuring they are fully submerged. If not, you can flip them halfway through the marinating process"
+    ],
+    "closingRemarks": "Able to be kept in the fridge for up to a week; Perfect for meal prep or to have on hand for a quick snack. I usually make this at the start of the week if I am planning to make ramen the following week",
+    "image": ""
+  },
+  {
+    "title": "Tonkotsu Ramen",
+    "intro": "A simple quick cheat version of Tonkotsu ramen that still delivers on flavour and mouthfeel.",
+    "ingredients": [
+      "Ramen noodles",
+      "Garlic",
+      "Dashi Stock (Any other stock can be used as well)",
+      "Soy Sauce",
+      "Mirin",
+      "Sake",
+      "Oyster Sauce",
+      "Sesame Oil",
+      "Almond or Soy Milk (Unsweetened)",
+      "Pork belly ",
+      "Choice of toppings (e.g., Nori sheet, Ramen eggs, Chashu pork, Menma (bamboo shoots), Scallions, Narutomaki (fishcake))"
+    ],
+    "steps": [
+      "In a pot, heat some oil and start frying off the pork belly",
+      "Add minced garlic and continue frying till fragrant",
+      "Add dashi stock, soy milk, soy sauce, mirin, sake, oyster sauce to the pot and bring to a simmer. The exact amounts can be adjusted according to taste but for a single serving, I usually use 1 cup of dashi and soy milk each, 1 tablespoon of soy sauce, 1 tablespoon of mirin, 1 teaspoon of sake and oyster sauce",
+      "In a separate pot, cook your ramen noodles according to the package instructions",
+      "Once the noodles are cooked, drain them and add them to your serving bowl and mix with a drizzle of sesame oil",
+      "Pour the broth over the noodles and top with your choice of toppings"
+    ],
+    "closingRemarks": "This is a quick and easy way to make a delicious bowl of ramen at home. The use of almond or soy milk gives the broth a creamy texture without the need for hours of simmering pork bones. I usually make this when I am craving ramen and already have some Ajitama eggs prepared in the fridge.",
+    "image": ""
+  },
+  {
+    "title": "Sardine Bee Hoon",
+    "intro": "Recipe I got from my mother's friend. It feels like a very homey dish that is quick to make and very comforting.",
+    "ingredients": [
+      "Rice Vermicelli (Bee Hoon)",
+      "Canned Sardines in Tomato Sauce",
+      "Garlic",
+      "Chili Padi (Bird's Eye Chili)",
+      "Onion",
+      "Sugar",
+      "Ketchup",
+      "Choice of Vegetables (e.g., Carrots, Choy Sum, Spinach, or any leafy greens)"
+    ],
+    "steps": [
+      "Soak the rice vermicelli in hot water for about 10 minutes or until softened. Drain and set aside",
+      "In a large pan or wok, heat some oil and sauté minced garlic, diced onion, and chopped chili padi until fragrant",
+      "Add the canned sardines with their sauce to the pan and break them up gently",
+      "Add a splash of water and the vegetables of your choice, and let them cook down for a few minutes",
+      "Add some sugar and ketchup to taste, adjusting the sweetness and tanginess according to your preference",
+      "Add the soaked rice vermicelli to the pan and toss everything together until well combined and heated through",
+      "Cover with a lid to let the bee hoon absorb the flavors for a few minutes",
+      "Serve hot, garnished with additional fried shallots and/or sambal chili"
+    ],
+    "closingRemarks": "The dish is honestly carried by the canned sardines as well as the sauce they come in. The bee hoon soaks up all the flavours and is a great way to use up leftover vegetables in the fridge.",
+    "image": ""
+  },
+  {
+    "title": "Pig Trotter Bee Hoon",
+    "intro": "A dish I used to have alot as a child. Also a favourite of my family. I kind of improvised this recipe based on my memory of how it tasted.",
+    "ingredients": [
+      "Rice Vermicelli (Bee Hoon)",
+      "Canned Braised Pig Trotters",
+      "Garlic",
+      "Oyster Sauce",
+      "Light Soy Sauce",
+      "Dried Shiitake Mushrooms",
+      "Choice of Vegetables (e.g., Cabbage, Choy Sum, Bell Peppers/Capsicum, or any leafy greens)"
+    ],
+    "steps": [
+      "Soak the rice vermicelli and mushrooms in hot water for about 10 minutes or until softened.",
+      "In a large pan or wok, heat some oil and sauté minced garlic until fragrant",
+      "Add the vegetables of your choice, mushrooms and sauté for a few minutes",
+      "Add the canned braised pig trotters with their sauce to the pan.",
+      "Add a splash of water, oyster sauce, and light soy sauce to taste, adjusting the seasoning according to your preference",
+      "Add the soaked rice vermicelli to the pan and toss everything together until well combined and heated through",
+      "Cover with a lid to let the bee hoon absorb the flavors for a few minutes",
+      "Serve hot, garnished with additional fried shallots and/or sambal chili"
+    ],
+    "closingRemarks": "Felt great to recreate this dish after so many years, with the help of input from my mother and grandmother. Apparently, the bones from the trotters can be blended and inciorporated into the sauce to make it thicker and richer, but I was unable to do it as my hand blender was not powerful enough. Attempting it broke my hand blender lol",
+    "image": ""
   }
 ]

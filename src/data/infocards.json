@@ -3,8 +3,20 @@
     "title": "Current University Courses",
     "content": [
       {
-        "text": "GEN2060X: Reconnect SeniorsSG",
-        "url": "https://nusmods.com/courses/GEN2060X/reconnect-seniors-sg"
+        "text": "CS2107: Intoduction to Information Security",
+        "url": "https://nusmods.com/modules/CS2107/introduction-to-information-security"
+      },
+      {
+        "text": "CS3241: Computer Graphics",
+        "url": "https://nusmods.com/modules/CS3241/computer-graphics"
+      },
+      {
+        "text": "CS3210: Parallel Computing",
+        "url": "https://nusmods.com/modules/CS3210/parallel-computing"
+      },
+      {
+        "text": "CS4248: Natural Language Processing",
+        "url": "https://nusmods.com/modules/CS4248/natural-language-processing"
       }
     ]
   },
@@ -20,12 +32,12 @@
         "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren?suggestion="
       },
       {
-        "text": "Apothecary Diaries",
-        "url": "https://myanimelist.net/anime/58514/Kusuriya_no_Hitorigoto_2nd_Season?q=Apothecary&cat=anime"
-      },
-      {
         "text": "Shangri-La Frontier",
         "url": "https://myanimelist.net/anime/58572/Shangri-La_Frontier__Kusoge_Hunter_Kamige_ni_Idoman_to_su_2nd_Season"
+      },
+      {
+        "text": "DanDaDan",
+        "url": "https://myanimelist.net/anime/57334/Dandadan"
       }
     ]
   },
