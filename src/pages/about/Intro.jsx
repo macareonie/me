@@ -16,12 +16,14 @@ export default function Intro() {
           </h1>
           <br />
           <p className="text-lg text-gray-700 dark:text-gray-300">
-            Hi, I'm Ryan! About to enter my final year at NUS studying Computer
+            Hi, I'm Ryan! Currently in my final year at NUS studying Computer
             Science, my interests include cooking, games and zoning out to lo-fi
-            music of any kind. I enjoy the pursuit of knowledge, whether it be
-            learning about obscure trivia or contemplating philosophical
-            questions.
+            music of any kind. One thing about me is that I enjoy the pursuit of
+            knowledge, whether it be learning about obscure trivia or
+            contemplating philosophical questions. But the real honest answer is
+            that I spend my time just grinding on gacha games and playing TFT.
           </p>
+
           <br />
           <p className="text-lg text-gray-700 dark:text-gray-300">
             I'm not an outgoing person nor an outdoorsy person, so my ideal day

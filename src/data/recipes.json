@@ -201,7 +201,7 @@
       "Pour the broth over the noodles and top with your choice of toppings"
     ],
     "closingRemarks": "This is a quick and easy way to make a delicious bowl of ramen at home. The use of almond or soy milk gives the broth a creamy texture without the need for hours of simmering pork bones. I usually make this when I am craving ramen and already have some Ajitama eggs prepared in the fridge.",
-    "image": ""
+    "image": "/images/recipes/tonkotsuramen.jpg"
   },
   {
     "title": "Sardine Bee Hoon",
@@ -253,5 +253,128 @@
     ],
     "closingRemarks": "Felt great to recreate this dish after so many years, with the help of input from my mother and grandmother. Apparently, the bones from the trotters can be blended and inciorporated into the sauce to make it thicker and richer, but I was unable to do it as my hand blender was not powerful enough. Attempting it broke my hand blender lol",
     "image": ""
+  },
+  {
+    "title": "Chicken Puffs",
+    "intro": "A little something I tried after getting my hands on puff pastry for the first time. Kind of trial and error but turned out well",
+    "ingredients": [
+      "Puff pastry",
+      "Shredded Chicken",
+      "Mushrooms",
+      "Onion",
+      "Garlic",
+      "Carrot",
+      "Cream of mushroom soup",
+      "Egg"
+    ],
+    "steps": [
+      "Preheat your oven to 200°C",
+      "In a pan, heat some oil and sauté minced garlic and diced onion until fragrant",
+      "Add diced carrots and mushrooms and continue cooking till they soften",
+      "Add shredded chicken and a few spoonfuls of cream of mushroom soup to bind the filling together. Season with salt and pepper to taste",
+      "Roll out your puff pastry and cut into squares of your desired size",
+      "Place a spoonful of the filling in the center of each square",
+      "Fold the pastry over to form a triangle or rectangle and seal the edges by pressing with a fork",
+      "Brush the tops with egg wash for a golden finish",
+      "Bake at 200°C in oven for 20-25 minutes or until the pastry is golden brown and puffed up. Timing will depend on the size of your puffs"
+    ],
+    "closingRemarks": "First time working with puff pastry. Definetely alot more efficient than trying to make it from scratch. Using campbell mushroom soup mix also helps add flavour and creaminess to the filling. Veg choices are flexible. For an even easier version, you could use rotisserie chicken as well.",
+    "image": "/images/recipes/chickenpuff.jpg"
+  },
+  {
+    "title": "Oyakodon",
+    "intro": "Simple and nutritional meal that is not only quick to make but also flavourful",
+    "ingredients": [
+      "Chicken",
+      "Eggs",
+      "Onion",
+      "Dashi Stock",
+      "Soy Sauce",
+      "Mirin",
+      "Sugar",
+      "Rice",
+      "Scallions/Spring Onions (Optional)"
+    ],
+    "steps": [
+      "Create the sauce by mixing dashi stock, soy sauce, mirin, and sugar in a bowl or straight in the pan/pot. I usualyy eyeball everything and adjust it as I go along",
+      "Slice onions and chicken into bite-sized pieces. Chicken thighs are preferred, but chicken breast can be used as well, just care not to overcook them",
+      "Add everthing into the pan/pot and bring to a simmer. Let the chicken cook through and the onions soften",
+      "Lightly beat the eggs in a bowl. No need to fully mix, leaving some streaks of egg white is fine to provide more colour contrast",
+      "Once the chicken is mostly cooked, pour half the egg mixture evenly over the chicken and cover with a lid and allow to set. Pour the rest of the egg mixture and cover again, turning off the heat and letting the residual heat set a little or to desired doneness. I prefer it more runny",
+      "Serve over rice and garnish with chopped scallions/spring onions if you have them"
+    ],
+    "closingRemarks": "Simple go to meal that takes minimal effort and time. I usually default to this when I have leftover rice. Chicken can be replaced with other meats like pork belly/collar, beef etc. but I find chicken thigh to be the best fit. ",
+    "image": "/images/recipes/oyakodon.jpg"
+  },
+  {
+    "title": "Homemade Pizza",
+    "intro": "First thing I made after getting my oven some time ago. Hardest part is just getting the dough right, but once you have that down, the rest is pretty straightforward",
+    "ingredients": [
+      "Plain Flour",
+      "Yeast",
+      "Sugar",
+      "Salt",
+      "Olive Oil",
+      "Pizza Sauce (Store-bought or homemade)",
+      "Choice of toppings (Cheese, Pepperoni, Bell Peppers/Capsicum, Onions, Mushrooms, Ham etc.)"
+    ],
+    "steps": [
+      "Honestly, there are many recipes online for pizza dough. The few times I made it, I used different recipes each time, but I don't really see much big difference between them. Generally, you will need flour, yeast, sugar, salt, water and some oil. Mix everything together and knead the dough till it is smooth and elastic. Let it proof in a warm place till it doubles in size. I usually have it develop overnight in the fridge though",
+      "Preheat your oven to the highest temperature it can go, usually around 250°C. Important to have the baking tray heated as well to get a good cook on the bottom",
+      "Roll out the dough to desired shape, thickness and size.",
+      "Spread a thin layer of pizza sauce over the dough. Honestly, a little goes a long way",
+      "Add your choice of toppings",
+      "Bake in the oven for about 10-15 minutes or until the crust is golden and the cheese is bubbly and slightly browned"
+    ],
+    "closingRemarks": "Surprisingly fun but messy process. I usually make it when flour is about to expire. Technically, dough can be made in advance and frozen but I end up eating it all within 2 days so I don't bother.  I prefer a simple margherita style pizza with just cheese and basil. Accidentally made it with expired flour and yeast once and it still turned out fine. Dough didn't rise as much but it was still edible. Had to roll it out a lot thinner as the dough was significantly denser",
+    "image": "/images/recipes/pizza.jpg"
+  },
+  {
+    "title": "Marinara Sauce",
+    "intro": "Versatile sauce that can be used for pasta, pizza, dipping sauce",
+    "ingredients": [
+      "Canned Tomatoes",
+      "Onion",
+      "Garlic",
+      "Olive Oil",
+      "Dried Oregano",
+      "Basil"
+    ],
+    "steps": [
+      "Heat some olive oil in a pan and sauté minced garlic and diced onion until fragrant",
+      "Deglaze the pan with a splash of water or white wine if you have it",
+      "Add canned tomatoes and break them up with a spoon or spatula if required",
+      "Add dried oregano, sugar and basil bouquet.",
+      "Let the sauce simmer for about 20-30 minutes, stirring occasionally. If the sauce becomes too thick, add a bit of water to reach your desired consistency"
+    ],
+    "closingRemarks": "Can be used for meal prep. Keeps well in the fridge for up to a week or can be frozen for longer storage. Made a batch recently which contributed to my homemade pizza and pasta dishes",
+    "image": "/images/recipes/marinara.jpg"
+  },
+  {
+    "title": "Smoked Duck Pasta",
+    "intro": "Pasta variant that utilises smoked duck breast. Hearty, food coma inducing meal",
+    "ingredients": [
+      "Smoked Duck Breast",
+      "Pasta of choice",
+      "Garlic",
+      "Onion",
+      "Milk",
+      "Flour",
+      "Butter/Oil",
+      "Italian herbs"
+    ],
+    "steps": [
+      "Prepare smoked duck breast according to package instructions. Usually involves pan searing the skin side to render the fat and crisp it up or simply microwaving it. I usually use precooked frozen ones but fresh ones should work as well",
+      "Cook your pasta according to package instructions",
+      "In another pot or deep pan, melt some butter/heat up some oil",
+      "Sauté minced garlic and diced onion until soften. Either dice it up fine or blend it to a paste if you prefer a less chunky sauce",
+      "Add an equal amount of flour and mix to form a roux. Let the flour cook out but be careful not to burn the roux. letting it brown a little is fine",
+      "Slowly add the milk in, consistently stirring to incorporate it with the roux, eventually making a bechamel sauce",
+      "Add Italian herbs and season with salt and pepper to taste",
+      "Mix your bechamel sauce into your pasta and add sliced smoked duck breast. Mix in some of the duck fat if you rendered it earlier for added flavour",
+      "Serve with some grated parmesan cheese if you have it. Alternatively, cheese can be added into the sauce as well"
+    ],
+    "closingRemarks": "Essentially some bechamel variant sauce with pasta and duck. Protein can be replaced. Mushrooms and vegetables like spincah and kale can be added as well.",
+    "image": "/images/recipes/duckpasta.jpg"
   }
 ]
