@@ -17,6 +17,7 @@ const navigation = [
   { name: "About Me", href: "/about", current: false },
   { name: "Food Blog", href: "/foodblog", current: false },
   { name: "Course Reviews", href: "/coursereviews", current: false },
+  { name: "MAL Ratings", href: "/ratings", current: false },
 ];
 
 function classNames(...classes) {
