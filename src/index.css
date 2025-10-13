@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Global light/dark backgrounds (without @apply for editor lint) */
+body {
+  background-color: #ffffff;
+  color: #111827; /* gray-900 */
+}
+.dark body {
+  background-color: #111827; /* gray-900 */
+  color: #f3f4f6; /* gray-100 */
+}
