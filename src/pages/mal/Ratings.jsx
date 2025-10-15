@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
 import {
   FaSpinner,
   FaExclamationTriangle,
@@ -19,12 +19,50 @@ const Ratings = () => {
     useMALData();
   const [searchTerm, setSearchTerm] = useState("");
   const [statusFilter, setStatusFilter] = useState("all");
+  const [selectedGenres, setSelectedGenres] = useState([]);
   const [sortBy, setSortBy] = useState("my_score");
   const [sortOrder, setSortOrder] = useState("desc");
   const [showStats, setShowStats] = useState(false);
+  const [showGenreFilter, setShowGenreFilter] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
 
+  const genreFilterRef = useRef(null);
+
+  // Close genre filter when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        genreFilterRef.current &&
+        !genreFilterRef.current.contains(event.target)
+      ) {
+        setShowGenreFilter(false);
+      }
+    };
+
+    if (showGenreFilter) {
+      document.addEventListener("mousedown", handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [showGenreFilter]);
+
   const itemsPerPage = 20;
+
+  // Get all unique genres from data
+  const allGenres = useMemo(() => {
+    if (!data || data.length === 0) return [];
+    const genreSet = new Set();
+    data.forEach((anime) => {
+      if (anime.genres && Array.isArray(anime.genres)) {
+        anime.genres.forEach((genre) => {
+          const genreName = typeof genre === "string" ? genre : genre?.name;
+          if (genreName) genreSet.add(genreName);
+        });
+      }
+    });
+    return Array.from(genreSet).sort();
+  }, [data]);
 
   // Filter and sort data
   const filteredAndSortedData = useMemo(() => {
@@ -47,6 +85,19 @@ const Ratings = () => {
           ?.toLowerCase()
           .replace(/[\s-]/g, "_");
         return normalizedStatus === statusFilter;
+      });
+    }
+
+    // Genre filter (AND logic - anime must have ALL selected genres)
+    if (selectedGenres.length > 0) {
+      filtered = filtered.filter((anime) => {
+        if (!anime.genres || !Array.isArray(anime.genres)) return false;
+        const animeGenreNames = anime.genres.map((g) =>
+          typeof g === "string" ? g : g?.name
+        );
+        return selectedGenres.every((selectedGenre) =>
+          animeGenreNames.includes(selectedGenre)
+        );
       });
     }
 
@@ -89,7 +140,7 @@ const Ratings = () => {
     });
 
     return filtered;
-  }, [data, searchTerm, statusFilter, sortBy, sortOrder]);
+  }, [data, searchTerm, statusFilter, selectedGenres, sortBy, sortOrder]);
 
   // Pagination logic
   const totalPages = Math.ceil(filteredAndSortedData.length / itemsPerPage);
@@ -163,15 +214,21 @@ const Ratings = () => {
       {/* Header */}
       <div className="bg-white dark:bg-gray-900 shadow-sm border-b dark:border-gray-700">
         <div className="max-w-7xl mx-auto px-4 py-6">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between">
-            <div>
+          <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+            <div className="flex-1">
               <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
                 MyAnimeList Ratings
               </h1>
-              <p className="text-gray-600 dark:text-gray-300 mt-1">
-                Trying to "document" everything I've watched/read.
+              <p className="text-gray-600 dark:text-gray-300 mt-2 text-sm leading-relaxed max-w-3xl">
+                Trying to "document" everything I've watched/read. Currently
+                still in the process of rating Animes; Manga ratings will
+                eventually come. Credit to the creators of Jikan API for
+                providing me the ability to enhance my exported data with
+                additional info (The original MAL API isn't the most convenient
+                thing to use and having Jikan as a workaround helps a whole
+                lot).
               </p>
-              <div className="flex items-center gap-4 mt-2 text-sm text-gray-500 dark:text-gray-400">
+              <div className="flex items-center gap-4 mt-3 text-sm text-gray-500 dark:text-gray-400">
                 <span>Total: {filteredAndSortedData.length} anime</span>
                 <span>
                   Page {currentPage} of {totalPages}
@@ -179,20 +236,22 @@ const Ratings = () => {
                 {enhancing && <FaSpinner className="animate-spin" />}
               </div>
             </div>
-            <div className="flex gap-2 mt-4 md:mt-0">
+            <div className="flex gap-2 flex-shrink-0">
               <button
                 onClick={() => setShowStats(!showStats)}
-                className="bg-indigo-100 dark:bg-indigo-900/30 hover:bg-indigo-200 dark:hover:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 px-4 py-2 rounded-lg transition-colors flex items-center gap-2"
+                className="bg-indigo-100 dark:bg-indigo-900/30 hover:bg-indigo-200 dark:hover:bg-indigo-900/50 text-indigo-700 dark:text-indigo-300 px-3 py-2 rounded-lg transition-colors flex items-center gap-2 text-sm"
               >
-                <FaCog />
+                <FaCog className="text-sm" />
                 {showStats ? "Hide Stats" : "Show Stats"}
               </button>
               <button
                 onClick={() => refreshData()}
                 disabled={enhancing}
-                className="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-500 text-white px-4 py-2 rounded-lg transition-colors flex items-center gap-2"
+                className="bg-blue-500 hover:bg-blue-600 disabled:bg-gray-500 text-white px-3 py-2 rounded-lg transition-colors flex items-center gap-2 text-sm"
               >
-                <FaSync className={enhancing ? "animate-spin" : ""} />
+                <FaSync
+                  className={enhancing ? "animate-spin text-sm" : "text-sm"}
+                />
                 Refresh
               </button>
             </div>
@@ -242,6 +301,63 @@ const Ratings = () => {
               </select>
             </div>
 
+            {/* Genre Filter */}
+            <div className="relative" ref={genreFilterRef}>
+              <button
+                onClick={() => setShowGenreFilter(!showGenreFilter)}
+                className="pl-10 pr-8 py-2 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors flex items-center gap-2"
+              >
+                <FaFilter className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+                Genres{" "}
+                {selectedGenres.length > 0 && `(${selectedGenres.length})`}
+              </button>
+
+              {showGenreFilter && (
+                <div className="absolute top-full mt-2 left-0 z-50 w-64 max-h-96 overflow-y-auto bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-700 rounded-lg shadow-xl">
+                  <div className="p-3 border-b border-gray-200 dark:border-gray-700 flex justify-between items-center">
+                    <span className="font-semibold text-gray-900 dark:text-gray-100">
+                      Select Genres
+                    </span>
+                    {selectedGenres.length > 0 && (
+                      <button
+                        onClick={() => setSelectedGenres([])}
+                        className="text-xs text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
+                      >
+                        Clear all
+                      </button>
+                    )}
+                  </div>
+                  <div className="p-2">
+                    {allGenres.map((genre) => (
+                      <label
+                        key={genre}
+                        className="flex items-center gap-2 px-3 py-2 hover:bg-gray-100 dark:hover:bg-gray-700 rounded cursor-pointer"
+                      >
+                        <input
+                          type="checkbox"
+                          checked={selectedGenres.includes(genre)}
+                          onChange={(e) => {
+                            if (e.target.checked) {
+                              setSelectedGenres([...selectedGenres, genre]);
+                            } else {
+                              setSelectedGenres(
+                                selectedGenres.filter((g) => g !== genre)
+                              );
+                            }
+                            setCurrentPage(1);
+                          }}
+                          className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                        />
+                        <span className="text-sm text-gray-900 dark:text-gray-100">
+                          {genre}
+                        </span>
+                      </label>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+
             {/* Sort */}
             <div className="flex gap-2">
               <div className="relative">
@@ -254,8 +370,7 @@ const Ratings = () => {
                   <option value="my_score">My Score</option>
                   <option value="title">Title</option>
                   <option value="mal_score">MAL Score</option>
-                  <option value="year">Year</option>
-                  <option value="my_finish_date">Finish Date</option>
+                  <option value="year">Year of Release</option>
                 </select>
               </div>
               <select
@@ -263,8 +378,8 @@ const Ratings = () => {
                 onChange={(e) => setSortOrder(e.target.value)}
                 className="px-3 py-2 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
               >
-                <option value="desc">High to Low</option>
-                <option value="asc">Low to High</option>
+                <option value="desc">Descending</option>
+                <option value="asc">Ascending</option>
               </select>
             </div>
           </div>
@@ -342,6 +457,7 @@ const Ratings = () => {
               onClick={() => {
                 setSearchTerm("");
                 setStatusFilter("all");
+                setSelectedGenres([]);
                 setCurrentPage(1);
               }}
               className="mt-2 text-blue-600 hover:text-blue-800 underline"
