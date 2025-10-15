@@ -480,8 +480,9 @@ const StatsPanel = ({ data }) => {
       {/* Genre Distribution */}
       {stats.topGenres.length > 0 && (
         <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
-          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
-            Top Genres
+          <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+            <FaChartPie className="text-gray-500 dark:text-gray-400" /> Top
+            Genres
           </h3>
           <div className="h-64 relative">
             <Pie data={genreChartData} options={chartOptions} />
@@ -491,8 +492,9 @@ const StatsPanel = ({ data }) => {
 
       {/* Status Distribution */}
       <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
-        <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
-          Watch Status
+        <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 flex items-center gap-2">
+          <FaChartPie className="text-gray-500 dark:text-gray-400" /> Watch
+          Status
         </h3>
         <div className="h-64 relative">
           <Pie data={statusChartData} options={chartOptions} />
