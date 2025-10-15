@@ -10,7 +10,7 @@ import {
   FaChevronLeft,
   FaChevronRight,
 } from "react-icons/fa";
-import { useMALData } from "../../hooks/useMALData";
+import { useMALData } from "../../context/MALDataContext";
 import RatingCard from "./RatingCard";
 import StatsPanel from "./StatsPanel";
 

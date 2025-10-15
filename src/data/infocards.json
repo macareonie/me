@@ -28,23 +28,6 @@
     ]
   },
   {
-    "title": "Shows/Anime I am currently watching",
-    "content": [
-      {
-        "text": "Frieren",
-        "url": "https://myanimelist.net/anime/52991/Sousou_no_Frieren?suggestion="
-      },
-      {
-        "text": "Shangri-La Frontier S2",
-        "url": "https://myanimelist.net/anime/58572/Shangri-La_Frontier__Kusoge_Hunter_Kamige_ni_Idoman_to_su_2nd_Season"
-      },
-      {
-        "text": "DanDaDan S2",
-        "url": "https://myanimelist.net/anime/57334/Dandadan"
-      }
-    ]
-  },
-  {
     "title": "Current Projects",
     "content": [{}]
   }

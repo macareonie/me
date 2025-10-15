@@ -71,26 +71,50 @@ export async function enhanceAnimeList(animeList) {
 
 export async function enhanceAllAnimeData(
   animeList,
-  { progressCallback } = {}
+  { progressCallback, incrementalSaveCallback } = {}
 ) {
   const enhanced = [];
   let success = 0;
+  const saveInterval = 10; // Save every 10 items
+
+  // Count already enhanced items for accurate progress
+  let alreadyEnhanced = 0;
+  for (const item of animeList) {
+    if (item.image_url) alreadyEnhanced++;
+  }
+
   for (let i = 0; i < animeList.length; i++) {
     const base = animeList[i];
+    const isAlreadyEnhanced = !!base.image_url;
+
     if (progressCallback) {
       progressCallback({
         current: i + 1,
         total: animeList.length,
         successful: success,
         currentAnime: base.title,
+        alreadyEnhanced, // Pass this info to show "resuming from X"
       });
     }
     const item = await enhanceSingleAnime(base);
     if (item.image_url) success++;
     enhanced.push(item);
-    if (i < animeList.length - 1 && !base.image_url) {
+
+    // Incremental save every N items
+    if (incrementalSaveCallback && (i + 1) % saveInterval === 0) {
+      incrementalSaveCallback(enhanced);
+    }
+
+    // Only delay if we're fetching new data (not using cache)
+    if (i < animeList.length - 1 && !isAlreadyEnhanced) {
       await new Promise((r) => setTimeout(r, 1000));
     }
   }
+
+  // Final save
+  if (incrementalSaveCallback) {
+    incrementalSaveCallback(enhanced);
+  }
+
   return enhanced;
 }
