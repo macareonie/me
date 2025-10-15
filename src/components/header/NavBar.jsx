@@ -11,6 +11,7 @@ import {
   MoonIcon,
 } from "@heroicons/react/24/outline";
 import { useTheme } from "../../context/ThemeContext";
+import { NavLink } from "react-router-dom";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
@@ -56,19 +57,23 @@ export default function Navbar() {
                 <div className="hidden sm:ml-6 sm:flex sm:items-center">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
+                      <NavLink
                         key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current
-                            ? "bg-gray-900 dark:bg-gray-700 text-white"
-                            : "text-gray-300 dark:text-gray-400 hover:bg-gray-700 dark:hover:bg-gray-800 hover:text-white",
-                          "rounded-md px-3 py-2 text-lg font-medium"
-                        )}
-                        aria-current={item.current ? "page" : undefined}
+                        to={item.href}
+                        className={({ isActive }) =>
+                          classNames(
+                            isActive
+                              ? "bg-gray-900 dark:bg-gray-700 text-white"
+                              : "text-gray-300 dark:text-gray-400 hover:bg-gray-700 dark:hover:bg-gray-800 hover:text-white",
+                            "rounded-md px-3 py-2 text-lg font-medium"
+                          )
+                        }
+                        aria-current={({ isActive }) =>
+                          isActive ? "page" : undefined
+                        }
                       >
                         {item.name}
-                      </a>
+                      </NavLink>
                     ))}
                   </div>
                   <button
@@ -91,15 +96,19 @@ export default function Navbar() {
               {navigation.map((item) => (
                 <DisclosureButton
                   key={item.name}
-                  as="a"
-                  href={item.href}
-                  className={classNames(
-                    item.current
-                      ? "bg-gray-900 dark:bg-gray-700 text-white"
-                      : "text-gray-300 dark:text-gray-400 hover:bg-gray-700 dark:hover:bg-gray-800 hover:text-white",
-                    "block rounded-md px-3 py-2 text-base font-medium"
-                  )}
-                  aria-current={item.current ? "page" : undefined}
+                  as={NavLink}
+                  to={item.href}
+                  className={({ isActive }) =>
+                    classNames(
+                      isActive
+                        ? "bg-gray-900 dark:bg-gray-700 text-white"
+                        : "text-gray-300 dark:text-gray-400 hover:bg-gray-700 dark:hover:bg-gray-800 hover:text-white",
+                      "block rounded-md px-3 py-2 text-base font-medium"
+                    )
+                  }
+                  aria-current={({ isActive }) =>
+                    isActive ? "page" : undefined
+                  }
                 >
                   {item.name}
                 </DisclosureButton>

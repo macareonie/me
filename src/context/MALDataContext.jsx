@@ -1,6 +1,11 @@
-import React, { createContext, useContext, useState, useEffect } from "react";
-import malData from "../data/myanimelist.json";
-import { enhanceAllAnimeData } from "../utils/enhanceAnimeData";
+import React, {
+  createContext,
+  useContext,
+  useState,
+  useEffect,
+  useRef,
+} from "react";
+import malEnhancerSingleton from "./malEnhancerSingleton";
 
 const MALDataContext = createContext(null);
 
@@ -12,48 +17,21 @@ export const MALDataProvider = ({ children }) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    loadAnimeData();
+    // Subscribe to singleton state
+    const unsubscribe = malEnhancerSingleton.subscribe((state) => {
+      setData(state.data);
+      setLoading(state.loading);
+      setEnhancing(state.enhancing);
+      setProgress(state.progress);
+      setError(state.error);
+    });
+    // Start enhancement if not already started
+    malEnhancerSingleton.startEnhancement();
+    return unsubscribe;
   }, []);
 
-  const loadAnimeData = async () => {
-    try {
-      setLoading(true);
-      setError(null);
-
-      // Cache keys
-      const cacheKey = "mal_enhanced_all_data";
-      const cacheTimestampKey = "mal_enhanced_all_timestamp";
-      const ttl = 30 * 24 * 60 * 60 * 1000; // 30 days
-
-      const cached = localStorage.getItem(cacheKey);
-      const ts = localStorage.getItem(cacheTimestampKey);
-      if (cached && ts && Date.now() - parseInt(ts, 10) < ttl) {
-        setData(JSON.parse(cached));
-        setLoading(false);
-        return;
-      }
-
-      // Enhance all upfront
-      setEnhancing(true);
-      const enhanced = await enhanceAllAnimeData(malData, {
-        progressCallback: setProgress,
-      });
-      setData(enhanced);
-      localStorage.setItem(cacheKey, JSON.stringify(enhanced));
-      localStorage.setItem(cacheTimestampKey, String(Date.now()));
-    } catch (err) {
-      setError(err.message);
-    } finally {
-      setEnhancing(false);
-      setLoading(false);
-    }
-  };
-
   const refreshData = () => {
-    // clear cache then reload
-    localStorage.removeItem("mal_enhanced_all_data");
-    localStorage.removeItem("mal_enhanced_all_timestamp");
-    loadAnimeData();
+    malEnhancerSingleton.refresh();
   };
 
   return (
