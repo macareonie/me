@@ -416,5 +416,56 @@
     "review": "It is hard to review much since the bulk of this module is essentially the internship you self source. In general, a very enriching period particularly for me given it is my first internship ever. Got to meet many new people and learn things both technical and not. On the school side of thigns, there really isn't much to talk about: essentially just a few monthly reflections and 2 main reports (1 after 3 months and 1 at the end of the 6 months), as well as a final presentation documenting your work and experience there.Monthly reports were slightly more on the informal end and had you describe the work accomplished during said month alongside new skills you picked up and plans going forward into the next month. The 2 main reports required a more structured format which covered a similar content to the monthly ones but required to be more fleshed out and formal. Overall, it really wasn't that hard writing the reports since all the content and points should be reflected in the monthly reports already. To me it just felt like a really long CS2103T + CS2101 combination but with new people and a more formal setting. Fional deliverable is a presentation to your assigned academic supervisor or TA which hasd you describe the project(s) you worked on during the 6 months, talk about overall experiecne and link back to school modules and future plans. Orginally to be conducted after the internship period, but my TA had it done at the 3 month mark instead, so there wasn't really that much to cover lol. Daunting as it may be, I realy felt like sourcing the internship was the most stressful part for me given that I was fresh into the job market and had nothing to sell myself with. Just grateful that I eventually got the opportunity to do so and experience a whole lot because of it",
     "closingRemarks": "Wonderful experience. Hopefully, future opportunities can come my way too D:",
     "image": "/images/reviews/sia.jpg"
+  },
+  {
+    "name": "CS2107: Introduction to Information Security",
+    "taken": "AY25/26 Sem 1",
+    "intro": "Intro security mod I took as a UE",
+    "breakdown": [
+      "20%: CTF Assignments",
+      "10%: MCQ Lecture Quizzes",
+      "17%: Midterm",
+      "8%: Tutorial Attendance",
+      "45%: Final"
+    ],
+    "review": "Surprisingly good module for a beginner despite the dry sounding content. Honestly, I was hesitating to take this mod solely because of the CTFs but they in particularly were what stood out to me the most. They were surprisingly fun to stumble through and the sense of accomplishment that comes from succesfully 'capturing' the hidden flags is really nice. Of course, alot of it was from the help of AI and google but it felt more of a needed secondary teacher to get through the sheer amount of content there was to cover. Content wise it started of more on the simple side covering ciphers and things like password entropy. The first big content chunk would be cryptography covering things like encryption algorithms and hashing functions. Next big chunk covered authentication covering things like PKI and certificates. The subsequent topics were mroe manageable individual chunks on network security, access control, secure programming and web security. There was an overview on stacks that was covered in another module I have taken CS2106 alongside secure programming to illustrate buffer overflow attacks. Honestly forgot most of the content from CS2106 so it was a good refresher. Tutorials were quite chill and I had a really good TA who tends to prepare extra revision questions for us before class as well. Nice that he also creates code demos for certain tutorials and also sends us PYPs early before midterm and finals. Midterm was a classic MCQ + FRQ 1 cheatsheet paper. Not too bad but the FRQ felt more like RNG then actually applying concepts. Finals was similar but I felt a little more prepared for the FRQ and struggled abit more in MCQ. CTFs were the highlight obviously and I had no issues staying up late to complete them. Something about seeing a program run executing a dictionary attack for 5hrs, felt satisfying despite it being such a simple concept. Things like disassembling the machine code and using gdb to exploit flaws and craft a malicious buffer input surprsingly felt fun to do as well despite trigggering the PTSD from seeing assembly code again. Overall, really enjoyed the module and would recommend it to anyone looking for a beginner security mod.",
+    "closingRemarks": "Decent module. The NUUSmod commetns on it seem pretty harsh in hindsight. CTFs were relatively beginner friendly too. Maybe they toned it down over the years but it was definitely worth taking it",
+    "image": "/images/reviews/security.jpg"
+  },
+  {
+    "name": "CS3241: Computer Graphics",
+    "taken": "AY25/26 Sem 1",
+    "intro": "Also a UE mod to try out graphics content",
+    "breakdown": ["Monthly Reports", "Final Presentation"],
+    "review": "",
+    "closingRemarks": "",
+    "image": "/images/reviews/graphics.jpg"
+  },
+  {
+    "name": "CS4248: Natural Language Processing",
+    "taken": "AY25/26 Sem 1",
+    "intro": "4k mod that also contributes to AI/ML focus area",
+    "breakdown": ["Monthly Reports", "Final Presentation"],
+    "review": "",
+    "closingRemarks": "",
+    "image": "/images/reviews/nlp.jpg"
+  },
+  {
+    "name": "CS3235: Computer Security",
+    "taken": "AY25/26 Sem 2",
+    "intro": "Follow up to CS2107; Wanted to dive deeper into security field",
+    "breakdown": [""],
+    "review": "",
+    "closingRemarks": "",
+    "image": "/images/reviews/compsec.jpg"
+  },
+  {
+    "name": "CS4243: Computer Vision",
+    "taken": "AY25/26 Sem 2",
+    "intro": "Final 4k mod and last of AI/ML focus area",
+    "breakdown": [""],
+    "review": "",
+    "closingRemarks": "",
+    "image": "/images/reviews/cv.jpg"
   }
 ]
