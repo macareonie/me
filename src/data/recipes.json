@@ -376,5 +376,189 @@
     ],
     "closingRemarks": "Essentially some bechamel variant sauce with pasta and duck. Protein can be replaced. Mushrooms and vegetables like spincah and kale can be added as well.",
     "image": "/images/recipes/duckpasta.jpg"
+  },
+  {
+    "title": "Aglio e Olio",
+    "intro": "Probably up there with one of my most cooked meals at home. Simple, quick and versatile that can be paired with any protein or eaten as is",
+    "ingredients": [
+      "Olive Oil",
+      "Garlic",
+      "Red Chili Flakes",
+      "Parsley",
+      "Pasta of choice",
+      "Protein of choice (Optional)"
+    ],
+    "steps": [
+      "Starting from a cold pan, add olive oil, garlic (sliced or diced) and red chilli flakes (chopped red chillis can be used too)",
+      "On a very low heat, let the ingredients infuse in the oil, making sure not to burn anything",
+      "Add a splash of water and the vegetables of your choice, and let them cook down for a few minutes",
+      "Cook your pasta according to package instructions",
+      "One trick I learnt to get a good emulsified sauce is to add the pasta water straight into the garlic infused oil first and have it emulsify before adding the pasta. I usually add almost as much pasta water as olive oil and stir vigorously over high heat",
+      "Once the sauce has achieved desired consistency, add the cooked pasta and toss to coat. At this pointm you can turn the heat off and add your choice of cooked protein if you have any",
+      "Finish with chopped parsley or other italian herbs you have on hand"
+    ],
+    "closingRemarks": "In the iamge, I paired it with oven baked salmon which I flaked after cooking as well as the crispy salmon skin for more texture. Usually I would have this as is or with shrimp if I have them on hand. Some may add cheese to it but I prefer it without especially not with seafood",
+    "image": "/images/recipes/aglioeolio.jpg"
+  },
+  {
+    "title": "Miso Chicken",
+    "intro": "A good alternative to the standard chicken seasoned with just salt and pepper. Sweet and savoury that imparts great flavour.",
+    "ingredients": [
+      "Miso Paste",
+      "Soy Sauce",
+      "Mirin",
+      "Sake",
+      "Sugar",
+      "Chicken Thighs"
+    ],
+    "steps": [
+      "To make the sauce, combine miso paste, mirin, sake and sugar. Soy sauce can also be added but I usually omit it since my miso is salty enough",
+      "Add your chicken thighs to the marinade and let sit for at least 30 minutes. Overnight is preferred to let the flavour penetrate the chicken better",
+      "Remove the chicken from the marinade and pat dry. This is where the longer marinating time helps because the surface marinade has to be removed due to it burning very easily from the sugar content",
+      "Starting from a cold pan, add the chicken thighs skin side down and let it cook on low heat to render the fat and crisp up the skin. I usually cover it with parchment paper and add a weight on top to ensure even contact with the pan. Sometimes, if there's too much fat, you can remove it with a paper towel. Less oil ironically also helps the skin crisp up better",
+      "The chicken will be mostly cooked through by the time the skin is crispy. Flip it over and cook the other side for a minute or two to finish",
+      "Let the chicken rest for a few minutes before slicing and serving. The leftovered marinade can be boiled down with some water to make a sauce to drizzle over the chicken if desired",
+      "Best served over rice with a sprinkle of sesame seeds. Vegetables work too"
+    ],
+    "closingRemarks": "Honestly, I feel like the sauce is flexible enough to be paired with other meats, but nothing beats a good crispy chicken thigh.",
+    "image": "/images/recipes/misochicken.jpg"
+  },
+  {
+    "title": "Chicken Parm",
+    "intro": "Very helpful for using up cheese especially for people that cook for themselves only :( and can never justify buying a whole block of cheese",
+    "ingredients": [
+      "Chicken Breast/Thigh",
+      "Flour",
+      "Egg",
+      "Bread Crumbs",
+      "Tomato Sauce",
+      "Cheese (Mozzarella, Parmesan etc.)"
+    ],
+    "steps": [
+      "Butterfly and pound the chicken breast till its even in thickness throughout",
+      "Set up a pane station and do the standard flour, egg, panko/breadcrumbs coating",
+      "Heat oil in a pan and shallow fry the chicken till golden brown on both sides",
+      "Transfer the chicken to a baking dish. Top with tomato sauce and cheese (any of the typical cheese can work but the melty ones like mozzarella are preferred for that cheese pull)",
+      "Bake/Broil in the oven till the cheese is melted and just about golden brown"
+    ],
+    "closingRemarks": "My sister really enjoyed this one when I made it for lunch. Pairs well with pasta. I would have made something like aglio e olio for more variation in flavour but pasta tossed in the same marinara sauce works too",
+    "image": "/images/recipes/chickenparm.jpg"
+  },
+  {
+    "title": "Parmagiana Di Melanzane",
+    "intro": "Eggplant; a childhood nightmare for me. Never really liked it. This was part of an attempt to give it another go so what better way than to douse it in marinara sauce and cheese?",
+    "ingredients": [
+      "Eggplant/Aubergine",
+      "Flour",
+      "Egg",
+      "Bread Crumbs",
+      "Tomato Sauce",
+      "Cheese (Mozzarella, Parmesan etc.)"
+    ],
+    "steps": [
+      "Slice the eggplant into thin rounds, salt them and let sit for 20-30 minutes to draw out as much moisture as possible. Pat dry with paper towels",
+      "Set up a pane station and do the standard flour, egg, panko/breadcrumbs coating. Breading is optional and can be replaced with just a light dusting a flour if you prefer",
+      "Heat oil in a pan and shallow fry the eggplant slices till golden brown on both sides",
+      "Transfer the fried eggplant slices to a baking dish. Top with tomato sauce and cheese. Can also do some kind of layering like lasagna if you have enough eggplant slices and the baking dish is too small"
+    ],
+    "closingRemarks": "Honestly the first time I tried it, I didn't really like. When I went back for more I realised the flesh is honestly fine. It was probably the eggplant skin that imparts that acrid and overly bittter taste that I was aversive too. If I were to make this again I would proably peel the eggplant first. But truthfully speaking, I would probably just go down the chicken parm route instead",
+    "image": "/images/recipes/eggplant.jpg"
+  },
+  {
+    "title": "Chicken with Mustard Sauce",
+    "intro": "Honestly a random concoction I made. Originally I wanted to do a french style 3 ingredient dish (chicken, onions and salt) but I didnt have enough onions so I improvised",
+    "ingredients": [
+      "Chicken thighs",
+      "Salt",
+      "Onion/Shallots",
+      "Garlic",
+      "Dijon Mustard",
+      "Cream or Milk"
+    ],
+    "steps": [
+      "Salt both sides of the chicken thighs and let sit for 10 to 20 minutes to draw out moisture. Pat dry with paper towels.",
+      "Starting from a cold pan, add the chicken thighs skin side down and let it cook on low heat to render the fat and crisp up the skin. I usually cover it with parchment paper and add a weight on top to ensure even contact with the pan. Sometimes, if there's too much fat, you can remove it with a paper towel. Less oil ironically also helps the skin crisp up better",
+      "The chicken will be mostly cooked through by the time the skin is crispy. Flip it over and cook the other side for a minute or two to finish. Remove the chicken from the pan and set aside",
+      "In the same pan, add diced onions/shallots and minced garlic and sauté till fragrant and softened",
+      "Add a spoonful or two of dijon mustard and mix well",
+      "Add cream or milk to loosen the sauce and bring to a simmer. Adjust the amount of mustard and cream/milk according to taste",
+      "Return the chicken to the pan and coat it with the sauce. Let it simmer for a minute to reheat the chicken",
+      "Serve with rice or pasta or as is"
+    ],
+    "closingRemarks": "Really happy with how it turned out. Really simple meal too. My one gripe was not having any other sides or carbs to go along with it the one time I made it. Definitely making this again whenever I can",
+    "image": "/images/recipes/chickenmustard.jpg"
+  },
+  {
+    "title": "Omurice",
+    "intro": "Simple dish using the same ingredients as egg fried rice and if you want to spend more time in the kitchen like I usually do",
+    "ingredients": [
+      "Rice",
+      "Eggs",
+      "Scallions/Spring Onions",
+      "Light Soy Sauce",
+      "Ketchup",
+      "Tonkatsu sauce",
+      "Choice of Protein and Vegetables (Optional)"
+    ],
+    "steps": [
+      "Fry your rice however you like it. Typical process would be cook your proteins and vegetables before adding rice and then seasoning it",
+      "The choice of sauce is flexible. You can go for the standard light soy sauce or try the ketchup and tokatsu sauce as alternatives for a sweeter flavour profile",
+      "Once your fried rice is done, set it aside and prepare to make the omelette",
+      "In a bowl, beat 2-3 eggs per serving and season with salt",
+      "Heat up oil and/or butter in a pan and pour in the eggs once hot",
+      "I usually aggresively swirl the eggs to create curds for abit before letting it set slightly",
+      "I like my eggs very runny so I would get to folding it pretty quickly but you can cook it till whatever doneness you prefer",
+      "You can either fold the egg over the rice in the pan itself or transfer the fried rice onto a plate and then place the omelette on top"
+    ],
+    "closingRemarks": "To be completely honest I would probably still cook a standard egg fried ricve over this since its faster and less fuss. That said, I would probably cook thhis if I ever make a demi glace sauce to try a different variation of omurice",
+    "image": "/images/recipes/omurice.jpg"
+  },
+  {
+    "title": "Bibimbap (but not really)",
+    "intro": "Really craving bibimbap one day but no gochujang or gochugaru in sight, so I attempted an improvised japanese-style bibimbap using miso paste instead",
+    "ingredients": [
+      "Rice",
+      "Any choice of toppings lol",
+      "Miso paste",
+      "Soy Sauce",
+      "Mirin",
+      "Sake",
+      "Sugar",
+      "Sesame Oil",
+      "Spinach",
+      "Carrots",
+      "Egg"
+    ],
+    "steps": [
+      "Chop your vegetables",
+      "For things like carrots, you can leave them raw or give a quick saute. For leafy greens, I like to blanch them briefly then toss with sesame seeds and sesame oil with a pinch of salt",
+      "Fried off some pork mince some garlic and salt till cooked though",
+      "To make the miso sauce, to a pot, gently heat miso paste and the classic japanese trinity of soy sauce, mirin and sake. Adjust the amounts according to taste. Can also add some sugar to balance it out. Add a bit of water to loosen the sauce if needed",
+      "To a bed of rice, add the all the toppings and finish with a fried or poached egg on top",
+      "Drizzle the miso sauce over the bowl and mix everything together before eating"
+    ],
+    "closingRemarks": "really good way to get vegetables in though it does take alot of chopping since the dish is mostly prep work. I just happened to make a simmered enoki mushroon dish (Nametake) that day so I added that as well.",
+    "image": "/images/recipes/bibimbap.jpg"
+  },
+  {
+    "title": "Pumpkin Sauce",
+    "intro": "Part 2 of trying vegetables I used to dislike. This time pumpkin. Tried making it into a sauce this time",
+    "ingredients": [
+      "Pumpkin",
+      "Onion",
+      "Garlic",
+      "Cream or Milk",
+      "Butter/Oil",
+      "Nutmeg",
+      "Salt",
+      "Pepper"
+    ],
+    "steps": [
+      "Cut the vegetables into chunks and season with salt, pepper and oil",
+      "Roast in the oven at 200°C till soft",
+      "Once done, remove from oven and let cool slightly before blending with cream or milk until smooth"
+    ],
+    "closingRemarks": "Nothing really much to it. Just a simple roasted pumpkin sauce that I finished with pasta. Honestly, I feel it works better as a soup/chowder rather than as a sauce.",
+    "image": "/images/recipes/pumpkinsauce.jpg"
   }
 ]

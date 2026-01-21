@@ -74,3 +74,16 @@ export async function parseAndEnhanceMAL(inputFile, outputFile) {
 
   return formattedAnimeList;
 }
+
+// Main execution
+(async () => {
+  try {
+    await parseAndEnhanceMAL(
+      "src/data/myanimelist.xml",
+      "src/data/myanimelist.json"
+    );
+  } catch (error) {
+    console.error("Error during conversion:", error);
+    process.exit(1);
+  }
+})();
