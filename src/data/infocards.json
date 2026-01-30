@@ -3,20 +3,16 @@
     "title": "Current University Courses",
     "content": [
       {
-        "text": "CS2107: Intoduction to Information Security",
-        "url": "https://nusmods.com/modules/CS2107/introduction-to-information-security"
+        "text": "CS3235: Computer Security",
+        "url": "https://nusmods.com/modules/CS3235/computer-security"
       },
       {
-        "text": "CS3241: Computer Graphics",
-        "url": "https://nusmods.com/modules/CS3241/computer-graphics"
+        "text": "CS4243: Computer Vision and Pattern Recognition",
+        "url": "https://nusmods.com/modules/CS4243/computer-vision-and-pattern-recognition"
       },
       {
-        "text": "CS3210: Parallel Computing",
-        "url": "https://nusmods.com/modules/CS3210/parallel-computing"
-      },
-      {
-        "text": "CS4248: Natural Language Processing",
-        "url": "https://nusmods.com/modules/CS4248/natural-language-processing"
+        "text": "CFG3001: Career Advancement",
+        "url": "https://nusmods.com/modules/CFG3001/career-advancement"
       }
     ]
   },
