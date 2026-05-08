@@ -1,20 +1,7 @@
 [
   {
     "title": "Current University Courses",
-    "content": [
-      {
-        "text": "CS3235: Computer Security",
-        "url": "https://nusmods.com/modules/CS3235/computer-security"
-      },
-      {
-        "text": "CS4243: Computer Vision and Pattern Recognition",
-        "url": "https://nusmods.com/modules/CS4243/computer-vision-and-pattern-recognition"
-      },
-      {
-        "text": "CFG3001: Career Advancement",
-        "url": "https://nusmods.com/modules/CFG3001/career-advancement"
-      }
-    ]
+    "content": [{}]
   },
   {
     "title": "Books I currently am reading",
@@ -25,6 +12,10 @@
   },
   {
     "title": "Current Projects",
-    "content": [{}]
+    "content": [
+      {
+        "text": "lifeconsole: personal dashboard"
+      }
+    ]
   }
 ]

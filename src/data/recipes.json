@@ -560,5 +560,29 @@
     ],
     "closingRemarks": "Nothing really much to it. Just a simple roasted pumpkin sauce that I finished with pasta. Honestly, I feel it works better as a soup/chowder rather than as a sauce.",
     "image": "/images/recipes/pumpkinsauce.jpg"
+  },
+  {
+    "title": "Mapo Tofu",
+    "intro": "My new go to meal that can be prepared in under 15 minutes. Adjustable spice levels and pairs well with rice and noodles",
+    "ingredients": [
+      "Ground meat (Pork)",
+      "Silken Tofu",
+      "Garlic",
+      "Doubanjiang (Chili Bean Paste)",
+      "Chilli Crisp Oil",
+      "Flour",
+      "Scallions/Spring Onions (Optional)"
+    ],
+    "steps": [
+      "In a pan, heat some oil and brown the ground meat. I like to sear it on each side first before breaking it up to get some extra texture and crisp on the meat",
+      "Add minced garlic and continue cooking till fragrant, the whites of the scallions/spring onions if you have them can be added in at this point as well",
+      "Add a spoonful of doubanjiang and chilli crisp oil to taste. Adjust the amount according to your spice preference. I would assume fresh chilli or the traditional Sichuan peppercorns would be added here as well if you have them on hand",
+      "Add a splash of water to loosen the sauce and let it simmer for a bit. I usually add some chicken bouillion powder to season as well, but classic salt and white pepper works too",
+      "In the meantime, cut your silken tofu into cubes and add them to the pan. Be careful when stirring to avoid breaking up the tofu too much",
+      "To thicken the sauce, mix some flour with water to create a slurry and add it to the pan. Let it cook for an extra minute to let the sauce thicken up to your desired consistency",
+      "Serve with rice or noodles and garnish with the greens of the scallions/spring onions if you have them"
+    ],
+    "closingRemarks": "Good sharing meal to accompany other side dishes but also works as a main on its own. This has surpassed my previous quick meal fix of oyakodon simply because there is even less prepping to be done, especially since I keep frozen garlic on hand and the ground meat needs no additional processing.",
+    "image": "/images/recipes/mapotofu.jpg"
   }
 ]
